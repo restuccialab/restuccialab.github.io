@@ -5,5 +5,3 @@ inline: true
 ---
 
  Invited to serve in the TPC of <strong>IEEE LCN 2022.<strong>
-
-
