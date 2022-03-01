@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2020-12-08 15:59:00-0400
+date: 2021-04-06 15:59:00-0400
 inline: true
 ---
 
-Invited to serve in the TPC of <strong>IEEE/ACM IWQoS 2022.<strong>
+Co-Chairing the <strong>  <a class="news-title" href="/assets/pdf/ACMTransaction2021.pdf">paper </a>  <strong> has been accepted for publication in <strong> IEEE/ACM Transactions on Networking. <strong>
 
 
