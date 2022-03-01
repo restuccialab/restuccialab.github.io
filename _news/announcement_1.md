@@ -1,24 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-12-08 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
-
----
-layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
----
-
-A simple inline announcement.
+Invited to serve in the TPC of <strong>IEEE/ACM IWQoS 2022.<strong>
 
 
----
-layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
----
-
-A simple inline announcement.
