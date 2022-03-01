@@ -101,7 +101,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  News:
+  news:
     defaults:
       layout: post
     output: true
@@ -110,7 +110,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 20
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
