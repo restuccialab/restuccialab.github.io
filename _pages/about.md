@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /about
+permalink: /
 subtitle: Assistant Professor, Electrical and Computer Engineering  <br> Northeastern University,  <br> Boston, MA, USA 
 
 profile:
