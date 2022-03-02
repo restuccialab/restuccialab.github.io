@@ -8,14 +8,32 @@ nav: true
 
 Current Members:
 
+
 <table style="width: 100%;">
     <tbody>
         <tr>
-            <td style="width: 25.0000%;">Foysal Haque<br></td>
-            <td rowspan="2" style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Trulli" width="80" height="100"></td>
+            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
         </tr>
         <tr>
-            <td style="width: 25.0000%;">Ph.D. Student (Joined Fall 2021)<br></td>
+            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td>
+        </tr>
+        <tr>
+            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
+        </tr>
+        <tr>
+            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td>
+        </tr>
+        <tr>
+            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
+        </tr>
+        <tr>
+            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td>
         </tr>
     </tbody>
 </table>
