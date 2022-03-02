@@ -9,22 +9,6 @@ profile:
   image: prof_pic.jpg
   address: 
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Font Awesome Icons</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-
-  <a href="https://github.com/frestuc"> <i class="fa fa-github" style="font-size:36px"></i></a>
-
-
-</body>
-</html> 
-
-  <a href="https://github.com/frestuc"> <i class="fa fa-github" style="font-size:36px"></i></a>
 
 github_username: frestuc  # your GitHub user name
 
