@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: AAbout
 permalink: /
 subtitle: Assistant Professor, Electrical and Computer Engineering  <br> Northeastern University,  <br> Boston, MA, USA 
 
