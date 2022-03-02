@@ -8,6 +8,18 @@ nav: true
 
 Current Members:
 
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 25.0000%;">Foysal Haque<br></td>
+            <td rowspan="2" style="width: 49.9422%;"><img src="/home/vivado_try/Downloads/Foysal.jpeg" alt="Trulli" width="80" height="100"></td>
+        </tr>
+        <tr>
+            <td style="width: 25.0000%;">Ph.D. Student (Joined Fall 2021)<br></td>
+        </tr>
+    </tbody>
+</table>
+
 Niloofar Bahadori (Postdoctoral Fellow)
 
 Foysal Haque (PhD, started Fall 2021)
