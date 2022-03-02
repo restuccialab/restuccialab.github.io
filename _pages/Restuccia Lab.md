@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /Lab/
-title: Lab
+permalink: /Restuccia Lab/
+title: Restuccia Lab
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
