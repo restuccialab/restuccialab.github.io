@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /Laboratory/
-title: The Restuccia Group at the Roux Institute
+title: The Restuccia Group
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 ---
