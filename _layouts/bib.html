@@ -5,7 +5,7 @@
         <div class="col-sm-2 abbr">
         {%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
+          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
@@ -102,9 +102,6 @@
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
-          {% if entry.preprint %}
-            <a href="{{ entry.preprint }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Preprint</a>
-
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
