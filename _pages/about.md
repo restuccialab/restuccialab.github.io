@@ -1,5 +1,5 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
 subtitle: Assistant Professor, Electrical and Computer Engineering  <br> Northeastern University,  <br> Boston, MA, USA 
@@ -7,7 +7,7 @@ subtitle: Assistant Professor, Electrical and Computer Engineering  <br> Northea
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address: 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
