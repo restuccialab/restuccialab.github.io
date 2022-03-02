@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Restuccia Lab/
+permalink: /teaching/
 title: 
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
