@@ -2,7 +2,7 @@
 layout: About
 title: About
 permalink: /
-subtitle: Assistant Professor, Electrical and Computer Engineering  <br> Northeastern University,  <br> Boston, MA, USA 
+subtitle: # Assistant Professor, Electrical and Computer Engineering  <br> Northeastern University,  <br> Boston, MA, USA 
 
 profile:
   align: right
