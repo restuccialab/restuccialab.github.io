@@ -21,7 +21,7 @@ Current Members:
         </tr>
         <tr>
             <td style="width: 65.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="135" height="150"></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal2.jpg" alt="Foysal" width="135" height="150"></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;"><br><br></td>
@@ -29,11 +29,11 @@ Current Members:
         </tr>
         <tr>
             <td style="width: 65.2948%;">Milin Zhang<br>Ph.D. Student (Joined Spring 2022)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Milin.jpeg" alt="Milin" width="135" height="150"></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Milin.jpg" alt="Milin" width="135" height="150"></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;">Mohammad Abdi<br>Ph.D. Student (Starting Summer 2022)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Mohammad.jpg" alt="Mohammad" width="135" height="150"></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Mohammad.jpeg" alt="Mohammad" width="135" height="150"></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;">Shahriar Rifat<br>Ph.D. Student (Starting Summer 2022)<br><br></td>
