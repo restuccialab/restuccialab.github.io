@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years: [journal]
+years: [PATENT, Journal, Conference, Preprint]
 nav: true
 ---
 <!-- _pages/publications.md -->
