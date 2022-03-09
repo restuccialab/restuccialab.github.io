@@ -6,7 +6,7 @@ description:
 nav: true
 ---
 
-Current Members:
+<h2>Current Members:</h2>
 
 
 <table style="width: 100%;">
@@ -34,8 +34,16 @@ Current Members:
             <td style="width: 49.9422%;"><img src="/assets/img/Milin.jpg" alt="Milin" width="135" height="150"></td>
         </tr>
         <tr>
+            <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td>
+        </tr>
+        <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Starting Summer 2022)<br><br></td>
             <td style="width: 49.9422%;"><img src="/assets/img/Mohammad.jpeg" alt="Mohammad" width="135" height="150"></td>
+        </tr>
+        <tr>
+            <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://bd.linkedin.com/in/shahriar-rifat-aa1b60bb"> Shahriar Rifat</a> </strong> <br>Ph.D. Student (Starting Summer 2022)<br><br></td>
@@ -50,8 +58,8 @@ Current Members:
 
 <h1>Openings</h1>
 
-We have multiple openings at the Roux Institute in Portland, Maine.
+<strong>We have multiple openings at the Roux Institute in Portland, Maine.</strong>strong>
 
-Please contact me at frestuc@northeastern.edu if interested. Please specify why your background and qualifications specifically fit within the research scope of our lab.
+Please contact me at <strong>  <a class="news-title" href="mailto:frestuc@northeastern.edu">frestuc@northeastern.edu</a> </strong> if interested. Please specify why your background and qualifications specifically fit within the research scope of our lab.
 
 Disclaimer: Due to the very large number of emails received from prospective PhD students and postdocs, I am unable to respond to all of them or to go over all resumes and transcripts in any great detail. Moreover, admissions to the ECE PhD program at Northeastern are not decided by individual faculty but by a committee.
