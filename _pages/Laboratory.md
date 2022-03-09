@@ -12,27 +12,27 @@ Current Members:
 <table style="width: 100%;">
     <tbody>
         <tr>
-            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
+            <td style="width: 65.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="135" height="150"></td>
         </tr>
         <tr>
-            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td>
         </tr>
         <tr>
-            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
+            <td style="width: 65.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="135" height="150"></td>
         </tr>
         <tr>
-            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td>
         </tr>
         <tr>
-            <td style="width: 33.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="80" height="100"></td>
+            <td style="width: 65.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal.jpeg" alt="Foysal" width="135" height="150"></td>
         </tr>
         <tr>
-            <td style="width: 33.2948%;"><br><br></td>
+            <td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td>
         </tr>
     </tbody>
