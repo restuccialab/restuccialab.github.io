@@ -12,8 +12,8 @@ Current Members:
 <table style="width: 100%;">
     <tbody>
         <tr>
-            <td style="width: 65.2948%;">Niloofar Bahadori<br>Postdoctoral Fellow<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Niloofar.jpeg" alt="Foysal" width="135" height="150"></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/niloofar-bahadori">Niloofar Bahadori </a> </strong><br>Postdoctoral Fellow<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Niloofar.jpg" alt="Niloofar" width="135" height="150"></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;"><br><br></td>
@@ -29,15 +29,15 @@ Current Members:
             <td style="width: 49.9422%;"><br></td>
         </tr>
         <tr>
-            <td style="width: 65.2948%;">Milin Zhang<br>Ph.D. Student (Joined Spring 2022)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/milin-zhang-b82454204">Milin Zhang </a> </strong><br><br></td>
             <td style="width: 49.9422%;"><img src="/assets/img/Milin.jpg" alt="Milin" width="135" height="150"></td>
         </tr>
         <tr>
-            <td style="width: 65.2948%;">Mohammad Abdi<br>Ph.D. Student (Starting Summer 2022)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong> <br><br></td>
             <td style="width: 49.9422%;"><img src="/assets/img/Mohammad.jpeg" alt="Mohammad" width="135" height="150"></td>
         </tr>
         <tr>
-            <td style="width: 65.2948%;">Shahriar Rifat<br>Ph.D. Student (Starting Summer 2022)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://bd.linkedin.com/in/shahriar-rifat-aa1b60bb"> Shahriar Rifat</a> </strong> <br><br></td>
             <td style="width: 49.9422%;"><img src="/assets/img/Shahriar.jpg" alt="Shahriar" width="135" height="150"></td>
         </tr>
         <tr>
