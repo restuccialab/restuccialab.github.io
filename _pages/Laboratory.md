@@ -20,8 +20,9 @@ Current Members:
             <td style="width: 49.9422%;"><br></td>
         </tr>
         <tr>
-            <td style="width: 65.2948%;">Foysal Haque<br>Ph.D. Student (Joined Fall 2021)<br><br></td>
-            <td style="width: 49.9422%;"><img src="/assets/img/Foysal2.jpg" alt="Foysal" width="135" height="150"></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://foysal1565.github.io/">Foysal Haque </a> </strong> <br>
+                Ph.D. Student (Joined Fall 2021)<br><br></td>
+            <td style="width: 49.9422%;"><img src="/assets/img/Foysal2.jpg" alt="Foysal" width="125" height="150"></td>
         </tr>
         <tr>
             <td style="width: 65.2948%;"><br><br></td>
