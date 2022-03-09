@@ -25,9 +25,44 @@
 
 @article{baldesi2022charm,
   abbr={Preprint},
+  abstract={oday’s radio access networks (RANs) are monolithic
+  entities which often operate statically on a given set of parameters
+  for the entirety of their operations. To implement realistic and
+  effective spectrum sharing policies, RANs will need to seamlessly
+  and intelligently change their operational parameters. In stark
+  contrast with existing paradigms, the new O-RAN architectures
+  for 5G-and-beyond networks (NextG) separate the logic that con-
+  trols the RAN from its hardware substrate, allowing unprece-
+  dented real-time fine-grained control of RAN components. In
+  this context, we propose the Channel-Aware Reactive Mechanism
+  (ChARM), a data-driven O-RAN-compliant framework that allows
+  (i) sensing the spectrum to infer the presence of interference
+  and (ii) reacting in real time by switching the distributed unit
+  (DU) and radio unit (RU) operational parameters according to
+  a specified spectrum access policy. ChARM is based on neural
+  networks operating directly on unprocessed I/Q waveforms to
+  determine the current spectrum context. ChARM does not require
+  any modification to the existing 3GPP standards. It is designed
+  to operate within the O-RAN specifications, and can be used in
+  conjunction with other spectrum sharing mechanisms (e.g., LTE-
+  U, LTE-LAA or MulteFire). We demonstrate the performance of
+  ChARM in the context of spectrum sharing among LTE and Wi-
+  Fi in unlicensed bands, where a controller operating over a RAN
+  Intelligent Controller (RIC) senses the spectrum and switches
+  cell frequency to avoid Wi-Fi. We develop a prototype of ChARM
+  using srsRAN, and leverage the Colosseum channel emulator to
+  collect a large-scale waveform dataset to train our neural networks
+  with. To collect standard-compliant Wi-Fi data, we extended the
+  Colosseum testbed using system-on-chip (SoC) boards running
+  a modified version of the OpenWiFi architecture. Experimental
+  results show that ChARM achieves accuracy of up to 96% on
+  Colosseum and 85% on an over-the-air testbed, demonstrating the
+  capacity of ChARM to exploit the considered spectrum channels},
+  
   title={ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control},
   author={Baldesi, Luca and Restuccia, Francesco and Melodia, Tommaso},
   journal={arXiv preprint arXiv:2201.06326},
+  html={https://arxiv.org/abs/2201.06326},
   year={Preprint}
 }
 
