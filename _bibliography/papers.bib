@@ -58,7 +58,7 @@
   results show that ChARM achieves accuracy of up to 96% on
   Colosseum and 85% on an over-the-air testbed, demonstrating the
   capacity of ChARM to exploit the considered spectrum channels},
-  
+
   title={ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control},
   author={Baldesi, Luca and Restuccia, Francesco and Melodia, Tommaso},
   journal={arXiv preprint arXiv:2201.06326},
@@ -68,18 +68,56 @@
 
 @article{callegaro2022smartdet,
   abbr={Preprint},
+  abstract={Mobile devices increasingly rely on object detec-
+  tion (OD) through deep neural networks (DNNs) to perform
+  critical tasks. Due to their high complexity, the execution of
+  these DNNs requires excessive time and energy. Low-complexity
+  object tracking (OT) can be used with OD, where the latter is
+  periodically applied to generate “fresh” references for tracking.
+  However, the frames processed with OD incur large delays,
+  which may make the reference outdated and degrade tracking
+  quality. Herein, we propose to use edge computing in this
+  context, and establish parallel OT (at the mobile device) and
+  OD (at the edge server) processes that are resilient to large OD
+  latency. We propose Katch-Up, a novel tracking mechanism that
+  improves the system resilience to excessive OD delay. However,
+  while Katch-Up significantly improves performance, it also
+  increases the computing load of the mobile device. Hence, we
+  design SmartDet, a low-complexity controller based on deep
+  reinforcement learning (DRL) that learns controlling the trade-
+  off between resource utilization and OD performance. SmartDet
+  takes as input context-related information related to the current
+  video content and the current network conditions to optimize
+  frequency and type of OD offloading, as well as Katch-Up
+  utilization. We extensively evaluate SmartDet on a real-world
+  testbed composed of a JetSon Nano as mobile device and a
+  GTX 980 Ti as edge server, connected through a Wi-Fi link.
+  Experimental results show that SmartDet achieves an optimal
+  balance between tracking performance – mean Average Recall
+  (mAR) and resource usage. With respect to a baseline with full
+  Katch-Up usage and maximum channel usage, we still increase
+  mAR by 4% while using 50% less of the channel and 30% power
+  resources associated with Katch-Up. With respect to a fixed
+  strategy using minimal resources, we increase mAR by 20% while
+  using Katch-Up on 1/3 of the frames.},
+
   title={SmartDet: Context-Aware Dynamic Control of Edge Task Offloading for Mobile Object Detection},
   author={Callegaro, Davide and Restuccia, Francesco and Levorato, Marco},
   journal={arXiv preprint arXiv:2201.04235},
+  html={https://arxiv.org/abs/2201.04235},
   year={Preprint}
 }
 
 @article{restuccia2022toward,
   abbr={Journal},
+  abstract={Wireless systems such as the Internet of Things (IoT) are changing the way we interact with the cyber and the physical world. As IoT systems become more and more pervasive, it is imperative to design wireless protocols that can effectively and efficiently support IoT devices and operations. On the other hand, today's IoT wireless systems are based on inflexible designs, which makes them inefficient and prone to a variety of wireless attacks. In this paper, we introduce the new notion of a deep learning-based polymorphic IoT receiver, able to reconfigure its waveform demodulation strategy itself in real time, based on the inferred waveform parameters. Our key innovation is the introduction of a novel embedded deep learning architecture that enables the solution of waveform inference problems, which is then integrated into a generalized hardware/software architecture with radio components and signal processing. Our polymorphic wireless receiver is prototyped on a custom-made software-defined radio platform. We show through extensive over-the-air experiments that the system achieves throughput within 87% of a perfect-knowledge Oracle system, thus demonstrating for the first time that polymorphic receivers are feasible.},
+
+
   title={Toward Polymorphic Internet of Things Receivers Through Real-Time Waveform-Level Deep Learning},
   author={Restuccia, Francesco and Melodia, Tommaso},
   journal={GetMobile: Mobile Computing and Communications},
   volume={25},
+  html={https://dl.acm.org/doi/abs/10.1145/3511285.3511294?casa_token=ziKh5Pvf8NIAAAAA:OXKzC4Ck_4f47V0oKB1lBQxdXshK7uISr859oeAI_u3BytSo5ZAeeirEoQjXMBmCkaUKS4GkMNQHEQ},
   number={3},
   pages={28--33},
   year={Journal},
@@ -95,9 +133,43 @@
 
 @article{matsubara2022bottlefit,
   abbr={Preprint},
+
+  abstract={Although mission-critical applications require the
+  use of deep neural networks (DNNs), their continuous execution
+  at mobile devices results in a significant increase in energy con-
+  sumption. While edge offloading can decrease energy consump-
+  tion, erratic patterns in channel quality, network and edge server
+  load can lead to severe disruption of the system’s key operations.
+  An alternative approach, called split computing, generates com-
+  pressed representations within the model (called “bottlenecks”),
+  to reduce bandwidth usage and energy consumption. Prior work
+  has proposed approaches that introduce additional layers, to the
+  detriment of energy consumption and latency. For this reason,
+  we propose a new framework called BottleFit, which, in
+  addition to targeted DNN architecture modifications, includes
+  a novel training strategy to achieve high accuracy even with
+  strong compression rates. We apply BottleFit on cutting-edge
+  DNN models in image classification, and show that BottleFit
+  achieves 77.1% data compression with up to 0.6% accuracy loss
+  on ImageNet dataset, while state of the art such as SPINN loses
+  up to 6% in accuracy. We experimentally measure the power
+  consumption and latency of an image classification application
+  running on an NVIDIA Jetson Nano board (GPU-based) and
+  a Raspberry PI board (GPU-less). We show that BottleFit
+  decreases power consumption and latency respectively by up to
+  49% and 89% with respect to (w.r.t.) local computing and by 37%
+  and 55% w.r.t. edge offloading. We also compare BottleFit
+  with state-of-the-art autoencoders-based approaches, and show
+  that (i) BottleFit reduces power consumption and execution
+  time respectively by up to 54% and 44% on the Jetson and 40%
+  and 62% on Raspberry PI; (ii) the size of the head model executed
+  on the mobile device is 83 times smaller. The code repository will
+  be published for full reproducibility of the results.},
+
   title={BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing},
   author={Matsubara, Yoshitomo and Callegaro, Davide and Singh, Sameer and Levorato, Marco and Restuccia, Francesco},
   journal={arXiv preprint arXiv:2201.02693},
+  html={https://arxiv.org/abs/2201.02693},
   year={Preprint}
 }
 
@@ -111,21 +183,54 @@
 
 @inproceedings{tehrani2021federated,
   abbr={Conference},
+  abstract={Next Generation (NextG) networks are expected to
+  support demanding tactile internet applications such as aug-
+  mented reality and connected autonomous vehicles. Whereas
+  recent innovations bring the promise of larger link capacity,
+  their sensitivity to the environment and erratic performance
+  defy traditional model-based control rationales. Zero-touch data-
+  driven approaches can improve the ability of the network
+  to adapt to the current operating conditions. Tools such as
+  reinforcement learning (RL) algorithms can build optimal control
+  policy solely based on a history of observations. Specifically,
+  deep RL (DRL), which uses a deep neural network (DNN)
+  as a predictor, has been shown to achieve good performance
+  even in complex environments and with high dimensional inputs.
+  However, the training of DRL models require a large amount of
+  data, which may limit its adaptability to ever-evolving statistics
+  of the underlying environment. Moreover, wireless networks
+  are inherently distributed systems, where centralized DRL ap-
+  proaches would require excessive data exchange, while fully
+  distributed approaches may result in slower convergence rates
+  and performance degradation. In this paper, to address these
+  challenges, we propose a federated learning (FL) approach to
+  DRL, which we refer to federated DRL (F-DRL), where base
+  stations (BS) collaboratively train the embedded DNN by only
+  sharing models’ weights rather than training data. We evaluate
+  two distinct versions of F-DRL, value and policy based, and show
+  the superior performance they achieve compared to distributed
+  and centralized DRL},
+
   title={Federated Deep Reinforcement Learning for the Distributed Control of NextG Wireless Networks},
   author={Tehrani, Peyman and Restuccia, Francesco and Levorato, Marco},
   booktitle={2021 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)},
   pages={248--253},
   year={Conf.},
+  html={https://ieeexplore.ieee.org/abstract/document/9677132},
   organization={IEEE}
 }
 
 @inproceedings{bonati2021colosseum,
   abbr={Conference},
+
+  abstract={Colosseum is an open-access and publicly-available large-scale wireless testbed for experimental research via virtualized and softwarized waveforms and protocol stacks on a fully programmable, “white-box” platform. Through 256 state-of-the-art software-defined radios and a massive channel emulator core, Colosseum can model virtually any scenario, enabling the design, development and testing of solutions at scale in a variety of deployments and channel conditions. These Colosseum radio-frequency scenarios are reproduced through high-fidelity FPGAbased emulation with finite-impulse response filters. Filters model the taps of desired wireless channels and apply them to the signals generated by the radio nodes, faithfully mimicking the conditions of real-world wireless environments. In this paper, we introduce Colosseum as a testbed that is for the first time open to the research community. We describe the architecture of Colosseum and its experimentation and emulation capabilities. We then demonstrate the effectiveness of Colosseum for experimental research at scale through exemplary use cases including prevailing wireless technologies (e.g., cellular and Wi-Fi) in spectrum sharing and unmanned aerial vehicle scenarios. A roadmap for Colosseum future updates concludes the paper.},
+  
   title={Colosseum: Large-Scale Wireless Experimentation Through Hardware-in-the-Loop Network Emulation},
   author={Bonati, Leonardo and Johari, Pedram and Polese, Michele and D’Oro, Salvatore and Mohanti, Subhramoy and Tehrani-Moayyed, Miead and Villa, Davide and Shrivastava, Shweta and Tassie, Chinenye and Yoder, Kurt and others},
   booktitle={2021 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)},
   pages={105--113},
   year={Conf.},
+  html={https://ieeexplore.ieee.org/abstract/document/9677430},
   organization={IEEE}
 }
 
