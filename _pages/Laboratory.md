@@ -58,7 +58,7 @@ nav: true
 
 <h1>Openings</h1>
 
-<strong>We have multiple openings at the Roux Institute in Portland, Maine.</strong>strong>
+<strong>We have multiple openings at the Roux Institute in Portland, Maine.</strong>
 
 Please contact me at <strong>  <a class="news-title" href="mailto:frestuc@northeastern.edu">frestuc@northeastern.edu</a> </strong> if interested. Please specify why your background and qualifications specifically fit within the research scope of our lab.
 
