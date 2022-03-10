@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Reliable Task Offloading in Mobile Autonomous Systems Through Semantic MU-MIMO Control
+description:
 img: assets/img/12.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Mobile autonomous systems (MASs) such as self-driving vehicles and drones have a pivotal role in critical applications such as urban mobility, precision agriculture and remote surveillance. To achieve their tasks, MASs increasingly rely on high-throughput low-latency streaming of computer vision tasks (e.g., object detection) to edge servers. However, ephemeral environmental factors such as blockages, congestion and fading may erratically interrupt the flow of tasks to the edge servers. Existing work has addressed computation and communication issues of task offloading by MASs separately, which necessarily leads to suboptimal solutions. Task accuracy, indeed, is inevitably tied to the quality of the multimedia data being sent to the edge, which in turns depends on the adopted wireless strategy. However, the wireless parameters being used depend on the quality of data being sent (the more compression, the higher the latency), which ultimately impacts the desired task accuracy. Thus, to achieve applications that are “resilient-by-design" without compromising task accuracy, the semantics of the multimedia data must be holistically and fundamentally intertwined with real-time optimization of wireless transmissions. The core advance of this project is the design and experimental evaluation of fundamentally novel techniques for hardware-based semantic-driven joint optimization of multimedia compression strategies and MU-MIMO transmissions in the context of resource-limited wireless systems. The PIs will leverage the support of this project to involve minority and underrepresented students in research and outreach activities. As part of the project, graduate students will develop unique expertise at the crossroads of machine learning, embedded systems and wireless networks.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_1_1.png" title="Edge Task Offloading" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Context-Aware Dynamic Control of Edge Task Offloading
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+The key technical efforts of this project will focus on the design of novel deep reinforcement learning (DRL)-based strategies that will control how the acquired data stream is compressed and wirelessly transmitted to the edge servers through MU-MIMO. The PIs will utilize techniques based on split computing to avoid increasing computational overhead due to the compression and MU-MIMO channel state information (CSI) feedback, while keeping the task accuracy close to the original. A full-fledged drone-based prototype based on customized software-defined radio (SDR) interfaces based on FPGA real-time processing and edge computing will be developed as part of the project. Large-scale data collection campaigns will be performed with a 64-antenna SDR testbed at Northeastern, a drone experimental testbed at UC Irvine, and the AERPAW PAWR platform to (i) collect the necessary wireless/multimedia data to train our algorithms; (ii) perform extensive testing and performance evaluation.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
+
 {% endraw %}
