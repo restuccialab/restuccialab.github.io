@@ -2,7 +2,7 @@
 layout: page
 title: Reliable Task Offloading in Mobile Autonomous Systems Through Semantic MU-MIMO Control
 description:
-img: assets/img/12.jpg
+img: assets/img/project_1_1.png
 importance: 1
 category: work
 ---
@@ -11,18 +11,12 @@ Mobile autonomous systems (MASs) such as self-driving vehicles and drones have a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/project_1_1.png" title="Edge Task Offloading" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_1_1.png" title="Edge Task O" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Context-Aware Dynamic Control of Edge Task Offloading
+    This image can also have a caption. It's like magic.
 </div>
 
 The key technical efforts of this project will focus on the design of novel deep reinforcement learning (DRL)-based strategies that will control how the acquired data stream is compressed and wirelessly transmitted to the edge servers through MU-MIMO. The PIs will utilize techniques based on split computing to avoid increasing computational overhead due to the compression and MU-MIMO channel state information (CSI) feedback, while keeping the task accuracy close to the original. A full-fledged drone-based prototype based on customized software-defined radio (SDR) interfaces based on FPGA real-time processing and edge computing will be developed as part of the project. Large-scale data collection campaigns will be performed with a 64-antenna SDR testbed at Northeastern, a drone experimental testbed at UC Irvine, and the AERPAW PAWR platform to (i) collect the necessary wireless/multimedia data to train our algorithms; (ii) perform extensive testing and performance evaluation.
 
-
-
-
-
-
-{% endraw %}
