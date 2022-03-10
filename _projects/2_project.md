@@ -1,80 +1,28 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title:  RFDataFactory
+description:
+img: assets/img/rfdatafactory.png
 importance: 2
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<h3> Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Community </h3>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Applied machine learning (ML) research in wireless faces challenges due the inability of domain experts to easily access existing well-curated, well-structured, and open-access datasets. Furthermore, there is a lack of direct access to a software framework that automates dataset creation and distribution based on detailed user requirements. RFDataFactory is a collaborative project that brings together investigators from Northeastern University and Rice University to bridge this gap. RFDataFactory aims to make available categorized datasets suitable for research related to ML in 5G and beyond networks, and advance fundamental understanding and design tools for accessing, creating, sharing and storing wireless datasets.
+
+RFDataFactory will enable easy collection and preprocessing of physical layer to packet-level datasets through high-level directives and application programming interfaces. This will enable dataset generation for several NSF-funded experimentation platforms, such as the Colosseum emulator and NSF Platforms for Advanced Wireless Research. The project will significantly advance autonomous statistical analysis of RF spectrum activity, which will reduce data storage needs. Moreover, it will create pre-processing tools for removing device identifying information and facilitate generating standards compliant metadata headers. The project will also result in a search-able, centralized repository of both project-supported and user-contributed datasets with the focus on re-usability.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/rfdatafactory.png" title="RfDataFactory" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+RFDataFactory will accelerate interdisciplinary research at the intersection of machine learning and the wireless domain, as well as bridging different communities and train a new generation of professionals for wireless dataset creation and sharing. The project will seek to involve underrepresented students in research and learning activities, support annual dataset gathering challenges, update advanced course materials with hands-on tutorials and laboratory sessions. Through targeted high-school outreach, the project will increase awareness and excitement in the next generation of researchers. The project will also generate value for other large-scale infrastructure investments already made by the NSF.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Project url: http://rfdatafactory.net. All datasets, meta-data files, software application programming interfaces, tutorial materials, webinar recordings and other digital outcomes of this project will be maintained for 3 years, accessible via the project website after the completion of the project.
