@@ -1,14 +1,11 @@
 ---
 layout: page
-title:  RFDataFactory
+title: Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Communit
 description:
 img: assets/img/rfdatafactory.png
 importance: 2
 category: work
 ---
-
-<h3> Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Community </h3>
-
 
 Applied machine learning (ML) research in wireless faces challenges due the inability of domain experts to easily access existing well-curated, well-structured, and open-access datasets. Furthermore, there is a lack of direct access to a software framework that automates dataset creation and distribution based on detailed user requirements. RFDataFactory is a collaborative project that brings together investigators from Northeastern University and Rice University to bridge this gap. RFDataFactory aims to make available categorized datasets suitable for research related to ML in 5G and beyond networks, and advance fundamental understanding and design tools for accessing, creating, sharing and storing wireless datasets.
 
