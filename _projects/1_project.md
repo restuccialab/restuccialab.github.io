@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Edge Task Offloading
+title: Reliable Task Offloading in Mobile Autonomous Systems Through Semantic MU-MIMO Control
 description:
 img: assets/img/project_1_1.png
 importance: 1
