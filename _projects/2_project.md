@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Communit
+title: Principled Dataset Generation, Sharing and Maintenance Tools for the Wireless Community
 description:
 img: assets/img/rfdatafactory.png
 importance: 2
