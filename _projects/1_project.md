@@ -8,7 +8,7 @@ category: work
 ---
 <style>
 .nsf {
-  width: 150px;
+  width: 135px;
   height: 121px;
 }
 </style>
