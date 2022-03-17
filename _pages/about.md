@@ -2,7 +2,7 @@
 layout: About
 title: About
 permalink: /
-subtitle: Assistant Professor, Northeastern Universit. 
+subtitle: Assistant Professor, Northeastern University. 
 
 profile:
   align: right
