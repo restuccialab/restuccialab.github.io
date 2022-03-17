@@ -9,7 +9,7 @@ category: work
 <style>
 .nsf {
   width: 135px;
-  height: 121px;
+  height: 135px;
 }
 </style>
 <img src="/assets/img/NSF.png" class="nsf" alt="NSF Logo">
