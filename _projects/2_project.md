@@ -7,6 +7,14 @@ importance: 2
 category: work
 ---
 
+<style>
+.nsf {
+  width: 150px;
+  height: 121px;
+}
+</style>
+<img src="/assets/img/NSF.png" class="nsf" alt="NSF Logo">
+
 Applied machine learning (ML) research in wireless faces challenges due the inability of domain experts to easily access existing well-curated, well-structured, and open-access datasets. Furthermore, there is a lack of direct access to a software framework that automates dataset creation and distribution based on detailed user requirements. RFDataFactory is a collaborative project that brings together investigators from Northeastern University and Rice University to bridge this gap. RFDataFactory aims to make available categorized datasets suitable for research related to ML in 5G and beyond networks, and advance fundamental understanding and design tools for accessing, creating, sharing and storing wireless datasets.
 
 RFDataFactory will enable easy collection and preprocessing of physical layer to packet-level datasets through high-level directives and application programming interfaces. This will enable dataset generation for several NSF-funded experimentation platforms, such as the Colosseum emulator and NSF Platforms for Advanced Wireless Research. The project will significantly advance autonomous statistical analysis of RF spectrum activity, which will reduce data storage needs. Moreover, it will create pre-processing tools for removing device identifying information and facilitate generating standards compliant metadata headers. The project will also result in a search-able, centralized repository of both project-supported and user-contributed datasets with the focus on re-usability.
