@@ -2,7 +2,7 @@
 layout: page
 title: Reliable Task Offloading in Mobile Autonomous Systems Through Semantic MU-MIMO Control
 description:
-img: assets/img/project_1_1.png
+img: assets/img/NSF.png
 importance: 1
 category: work
 ---
