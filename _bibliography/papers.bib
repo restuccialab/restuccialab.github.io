@@ -2,7 +2,14 @@
 ---
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Journals %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 @article{restuccia2022toward,
@@ -20,6 +27,19 @@
   year={2022},
   publisher={ACM New York, NY, USA}
 }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conferences %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preprints %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
@@ -153,24 +173,194 @@
 
 @article{bahadori2022rewis,
   abbr={Preprint },
+  abstract={Thanks to the ubiquitousness of Wi-Fi access points
+  and devices, Wi-Fi sensing enables transformative applications
+  in remote health care, home/office security, and surveillance, just
+  to name a few. Existing work has explored the usage of machine
+  learning (ML) on channel state information (CSI) computed from
+  Wi-Fi packets to classify events of interest. However, most of
+  these algorithms require a significant amount of data collection,
+  as well as extensive computational power for additional CSI
+  feature extraction. Moreover, the majority of these models suffer
+  from poor accuracy when tested in a new/untrained environment.
+  In this paper, we propose ReWiS, a novel framework for
+  robust and environment-independent Wi-Fi sensing. The key
+  innovation of ReWiS is to leverage few-shot learning (FSL) as
+  the inference engine, which (i) reduces the need for extensive
+  data collection and application-specific feature extraction; (ii)
+  can rapidly generalize to new tasks by leveraging only a few
+  new samples. Moreover, ReWiS leverages multi-antenna, multi-
+  receiver diversity, as well as fine-grained frequency resolution,
+  to improve the overall robustness of the algorithms. Finally, we
+  propose a technique based on singular value decomposition (SVD)
+  to make the FSL input constant irrespective of the number of
+  receiver antennas. We prototype ReWiS using off-the-shelf Wi-
+  Fi equipment and showcase its performance by considering a
+  compelling use case of human activity recognition. Thus, we
+  perform an extensive data collection campaign in three different
+  propagation environments with two human subjects. We evaluate
+  the impact of each diversity component on the performance
+  and compare ReWiS with a traditional convolutional neural
+  network (CNN) approach. Experimental results show that ReWiS
+  improves the performance by about 40% with respect to exist-
+  ing single-antenna low-resolution approaches. Moreover, when
+  compared to a CNN-based approach, ReWiS shows 35% more
+  accuracy and less than 10% drop in accuracy when tested in
+  different environments, while the CNN drops by more than 45%.
+  To allow reproducibility of our results and to address the current
+  dearth of Wi-Fi sensing datasets, we pledge to release our 60 GB
+  dataset and the entire code repository to the community.},
   title={ReWiS: Reliable Wi-Fi Sensing Through Few-Shot Multi-Antenna Multi-Receiver CSI Learning},
   author={Bahadori, Niloofar and Ashdown, Jonathan and Restuccia, Francesco},
   journal={arXiv preprint arXiv:2201.00869},
+  html={https://arxiv.org/abs/2201.00869},
   year={2022}
 }
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2021   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Journals %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{vegni2021series,
+  abbr={Journal},
+  abstract={In late 2019, a new virus was discovered, namely SARS-CoV-2. This strain causes severe acute respiratory syndrome coronavirus 2, defined as COVID-19. The disease soon spread all over the world, thus becoming a pandemic. It has been almost two years since worldwide restrictions on our lives started, and the traditional way people live and work has completely changed.},
+  title={Series Editorial: Networking Technologies to Combat the COVID-19 Pandemic},
+  author={Vegni, Anna Maria and Loscr{\`\i}, Valeria and Restuccia, Francesco and Yang, De-Nian},
+  journal={IEEE Communications Magazine},
+  volume={59},
+  number={9},
+  pages={14--15},
+  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9566516},
+  year={2021},
+  publisher={IEEE}
+}
 
 
 
 
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conferences %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@inproceedings{tehrani2021federated,
+  abbr={Conference},
+  abstract={Next Generation (NextG) networks are expected to
+  support demanding tactile internet applications such as aug-
+  mented reality and connected autonomous vehicles. Whereas
+  recent innovations bring the promise of larger link capacity,
+  their sensitivity to the environment and erratic performance
+  defy traditional model-based control rationales. Zero-touch data-
+  driven approaches can improve the ability of the network
+  to adapt to the current operating conditions. Tools such as
+  reinforcement learning (RL) algorithms can build optimal control
+  policy solely based on a history of observations. Specifically,
+  deep RL (DRL), which uses a deep neural network (DNN)
+  as a predictor, has been shown to achieve good performance
+  even in complex environments and with high dimensional inputs.
+  However, the training of DRL models require a large amount of
+  data, which may limit its adaptability to ever-evolving statistics
+  of the underlying environment. Moreover, wireless networks
+  are inherently distributed systems, where centralized DRL ap-
+  proaches would require excessive data exchange, while fully
+  distributed approaches may result in slower convergence rates
+  and performance degradation. In this paper, to address these
+  challenges, we propose a federated learning (FL) approach to
+  DRL, which we refer to federated DRL (F-DRL), where base
+  stations (BS) collaboratively train the embedded DNN by only
+  sharing models’ weights rather than training data. We evaluate
+  two distinct versions of F-DRL, value and policy based, and show
+  the superior performance they achieve compared to distributed
+  and centralized DRL},
+
+  title={Federated Deep Reinforcement Learning for the Distributed Control of NextG Wireless Networks},
+  author={Tehrani, Peyman and Restuccia, Francesco and Levorato, Marco},
+  booktitle={2021 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)},
+  pages={248--253},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9677132},
+  organization={IEEE}
+}
+
+@inproceedings{bonati2021colosseum,
+  abbr={Conference},
+  abstract={Colosseum is an open-access and publicly-available
+  large-scale wireless testbed for experimental research via virtu-
+  alized and softwarized waveforms and protocol stacks on a fully
+  programmable, “white-box” platform. Through 256 state-of-the-
+  art software-defined radios and a massive channel emulator core,
+  Colosseum can model virtually any scenario, enabling the de-
+  sign, development and testing of solutions at scale in a variety
+  of deployments and channel conditions. These Colosseum radio-
+  frequency scenarios are reproduced through high-fidelity FPGA-
+  based emulation with finite-impulse response filters. Filters model
+  the taps of desired wireless channels and apply them to the signals
+  generated by the radio nodes, faithfully mimicking the conditions
+  of real-world wireless environments. In this paper, we introduce
+  Colosseum as a testbed that is for the first time open to the research
+  community. We describe the architecture of Colosseum and its
+  experimentation and emulation capabilities. We then demonstrate
+  the effectiveness of Colosseum for experimental research at scale
+  through exemplary use cases including prevailing wireless tech-
+  nologies (e.g., cellular and Wi-Fi) in spectrum sharing and un-
+  manned aerial vehicle scenarios. A roadmap for Colosseum future
+  updates concludes the paper.},
+
+  title={Colosseum: Large-Scale Wireless Experimentation Through Hardware-in-the-Loop Network Emulation},
+  author={Bonati, Leonardo and Johari, Pedram and Polese, Michele and D’Oro, Salvatore and Mohanti, Subhramoy and Tehrani-Moayyed, Miead and Villa, Davide and Shrivastava, Shweta and Tassie, Chinenye and Yoder, Kurt and others},
+  booktitle={2021 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)},
+  pages={105--113},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9677430},
+  organization={IEEE}
+}
+
+
+@inproceedings{al2021deeplora,
+  abbr={Conference},
+  abstract={
+
+  The Long Range (LoRa) protocol for low-power wide-area networks (LPWANs) is a strong candidate to enable the massive roll-out of the Internet of Things (IoT) because of its low cost, impressive sensitivity (-137dBm), and massive scalability potential. As tens of thousands of tiny LoRa devices are deployed over large geographic areas, a key component to the success of LoRa will be the development of reliable and robust authentication mechanisms. To this end, Radio Frequency Fingerprinting (RFFP) through deep learning (DL) has been heralded as an effective zero-power supplement or alternative to energy-hungry cryptography. Existing work on LoRa RFFP has mostly focused on small-scale testbeds and low-dimensional learning techniques; however, many challenges remain. Key among them are authentication techniques robust to a wide variety of channel variations over time and supporting a vast population of devices.
+
+  In this work, we advance the state of the art by presenting (i) the first massive experimental evaluation of DL RFFP and (ii) new data augmentation techniques for LoRa designed to counter the degradation introduced by the wireless channel. Specifically, we collected and publicly shared more than 1TB of waveform data from 100 bit-similar devices (with identical manufacturing processes) over different deployment scenarios (outdoor vs. indoor) and spanning several days. We train and test diverse DL models (convolutional and recurrent neural networks) using either preamble or payload data slices. We compare three different representations of the received signal: (i) IQ, (ii) amplitude-phase, and (iii) spectrogram. Finally, we propose a novel data augmentation technique called DeepLoRa to enhance the LoRa RFFP performance. Results show that (i) training the CNN models with IQ representation is not always the best combo in fingerprinting LoRa radios; training CNNs and RNN-LSTMs with amplitude-phase and spectrogram representations may increase the fingerprinting performance in small and medium-scale testbeds; (ii) using only payload data in the fingerprinting process outperforms preamble only data, and (iii) DeepLoRa data augmentation technique improves the classification accuracy from 19% to 36% in the RFFP challenging case of training on data collected on a different day than the testing data. Moreover, DeepLoRa raises the accuracy from 82% to 91% when training and testing 100 devices with data collected on the same day.},
+  title={DeepLoRa: Fingerprinting LoRa Devices at Scale Through Deep Learning and Data Augmentation},
+
+  author={Al-Shawabka, Amani and Pietraski, Philip and Pattar, Sudhir B and Restuccia, Francesco and Melodia, Tommaso},
+  booktitle={Proceedings of the Twenty-second International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+  pages={251--260},
+  html={https://dl.acm.org/doi/abs/10.1145/3466772.3467054},
+  year={2021}
+}
+
+
+
+@inproceedings{piva2021tags,
+  abbr={Conference},
+  abstract={Millions of RFID tags are pervasively used all around the globe to inexpensively identify a wide variety of everyday-use objects. One of the key issues of RFID is that tags cannot use energy-hungry cryptography, and thus can be easily cloned. For this reason, radio fingerprinting (RFP) is a compelling approach that leverages the unique imperfections in the tag's wireless circuitry to achieve large-scale RFID clone detection. Recent work, however, has unveiled that time-varying channel conditions can significantly decrease the accuracy of the RFP process. Prior art in RFID identification does not consider this critical aspect, and instead focuses on custom-tailored feature extraction techniques and data collection with static channel conditions. For this reason, we propose the first large-scale investigation into RFP of RFID tags with dynamic channel conditions. Specifically, we perform a massive data collection campaign on a testbed composed by 200 off-the-shelf identical RFID tags and a software-defined radio (SDR) tag reader. We collect data with different tag-reader distances in an over-the-air configuration. To emulate implanted RFID tags, we also collect data with two different kinds of porcine meat inserted between the tag and the reader. We use this rich dataset to train and test several convolutional neural network (CNN)-based classifiers in a variety of channel conditions. Our investigation reveals that training and testing on different channel conditions drastically degrades the classifier's accuracy. For this reason, we propose a novel training framework based on federated machine learning (FML) and data augmentation (DAG) to boost the accuracy. Extensive experimental results indicate that (i) our FML approach improves accuracy by up to 48%; (ii) our DAG approach improves the FML performance by up to 19% and the single-dataset performance by 31%. To the best of our knowledge, this is the first paper experimentally demonstrating the efficacy of FML and DAG on a large device population. To allow full replicability, we are sharing with the research community our fully-labeled 200-GB RFID waveform dataset, as well as the entirety of our code and trained models, concurrently with our submission.},
+  title={The Tags Are Alright: Robust Large-Scale RFID Clone Detection Through Federated Data-Augmented Radio Fingerprinting},
+  author={Piva, Mauro and Maselli, Gaia and Restuccia, Francesco},
+  booktitle={Proceedings of the Twenty-second International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+  html={https://dl.acm.org/doi/abs/10.1145/3466772.3467033},
+  pages={41--50},
+  year={2021}
+}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preprints %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
