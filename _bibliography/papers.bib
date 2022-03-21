@@ -280,6 +280,22 @@
   publisher={IEEE}
 }
 
+@article{guida2021implantable,
+  abbr={Journal},
+
+  abstract={The promise of real-time detection and response to life-crippling diseases brought by the Implantable Internet of Medical Things (IIoMT) has recently spurred substantial advances in implantable technologies. Yet, existing medical devices do not provide at once the miniaturized end-to-end body monitoring, wireless communication and remote powering capabilities to implement IIoMT applications. This paper fills the existing research gap by presenting U-Verse, the first FDA-compliant rechargeable IIoMT platform packing sensing, computation, communication, and recharging circuits into a penny-scale platform. Extensive experimental evaluation indicates that U-Verse (i) can be wirelessly recharged and can store energy several orders of magnitude more than state-of-theart capacity in tens of minutes; (ii) with one single charge, it can operate from few hours to several days. Finally, U-Verse is demonstrated through (i) a closed-loop application that sends data via ultrasounds through real porcine meat; and (ii) a real-time reconfigurable pacemaker.},
+
+  title={The Implantable Internet of Medical Things: Toward Lifelong Remote Monitoring and Treatment of Chronic Diseases},
+  author={Guida, Raffaele and Dave, Neil and Restuccia, Francesco and Demirors, Emrecan and Melodia, Tommaso},
+  journal={GetMobile: Mobile Computing and Communications},
+  volume={24},
+  number={3},
+  pages={20--25},
+  year={2021},
+  html={https://dl.acm.org/doi/abs/10.1145/3447853.3447861},
+  publisher={ACM New York, NY, USA}
+}
+
 
 
 
@@ -535,13 +551,109 @@
 
 
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preprints %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
 
 
+@article{restuccia2021ieee,
+  abbr={Preprint},
+
+  abstract={Wi-Fi is among the most successful wireless technologies ever invented. As Wi-Fi becomes more and more present in public and private spaces, it becomes natural to leverage its ubiquitousness to implement groundbreaking wireless sensing applications such as human presence detection, activity recognition, and object tracking, just to name a few. This paper reports ongoing efforts by the IEEE 802.11bf Task Group (TGbf), which is defining the appropriate modifications to existing Wi-Fi standards to enhance sensing capabilities through 802.11-compliant waveforms. We summarize objectives and timeline of TGbf, and discuss some of the most interesting proposed technical features discussed so far. We also introduce a roadmap of research challenges pertaining to Wi-Fi sensing and its integration with future Wi-Fi technologies and emerging spectrum bands, hoping to elicit further activities by both the research community and TGbf. },
+
+  title={IEEE 802.11 bf: Toward ubiquitous Wi-Fi sensing},
+  author={Restuccia, Francesco},
+  html={https://arxiv.org/abs/2103.14918},
+  journal={arXiv preprint arXiv:2103.14918},
+  year={2021}
+}
+
+
+
+@article{matsubara2021split,
+  abbr={Preprint},
+
+  abstract={Mobile devices such as smartphones and autonomous vehicles increasingly rely on deep neural networks (DNNs) to execute complex inference tasks such as image classification and speech recognition, among others. However, continuously executing the entire DNN on the mobile device can quickly deplete its battery. Although task offloading to cloud/edge servers may decrease the mobile device's computational burden, erratic patterns in channel quality, network, and edge server load can lead to a significant delay in task execution. Recently, approaches based on split computing (SC) have been proposed, where the DNN is split into a head and a tail model, executed respectively on the mobile device and on the edge server. Ultimately, this may reduce bandwidth usage as well as energy consumption. Another approach, called early exiting (EE), trains models to present multiple "exits" earlier in the architecture, each providing increasingly higher target accuracy. Therefore, the trade-off between accuracy and delay can be tuned according to the current conditions or application demands. In this paper, we provide a comprehensive survey of the state of the art in SC and EE strategies by presenting a comparison of the most relevant approaches. We conclude the paper by providing a set of compelling research challenges.},
+
+  title={Split computing and early exiting for deep learning applications: Survey and research challenges},
+  author={Matsubara, Yoshitomo and Levorato, Marco and Restuccia, Francesco},
+  journal={arXiv preprint arXiv:2103.04505},
+  html={https://arxiv.org/abs/2103.04505},
+  year={2021}
+}
+
+
+@article{ghiro2021blockchain,
+  abbr={Preprint },
+  
+  abstract={The use of the term blockchain is documented for disparate projects, from cryptocurrencies to applications for the Internet of Things (IoT), and many more. The concept of blockchain appears therefore blurred, as it is hard to believe that the same technology can empower applications that have extremely different requirements and exhibit dissimilar performance and security. This position paper elaborates on the theory of distributed systems to advance a clear definition of blockchain that allows us to clarify its role in the IoT. This definition inextricably binds together three elements that, as a whole, provide the blockchain with those unique features that distinguish it from other distributed ledger technologies: immutability, transparency and anonimity. We note however that immutability comes at the expense of remarkable resource consumption, transparency demands no confidentiality and anonymity prevents user identification and registration. This is in stark contrast to the requirements of most IoT applications that are made up of resource constrained devices, whose data need to be kept confidential and users to be clearly known. Building on the proposed definition, we derive new guidelines for selecting the proper distributed ledger technology depending on application requirements and trust models, identifying common pitfalls leading to improper applications of the blockchain. We finally indicate a feasible role of the blockchain for the IoT: myriads of local, IoT transactions can be aggregated off-chain and then be successfully recorded on an external blockchain as a means of public accountability when required.},
+
+  title={What is a Blockchain? A Definition to Clarify the Role of the Blockchain in the Internet of Things},
+  author={Ghiro, Lorenzo and Restuccia, Francesco and D'Oro, Salvatore and Basagni, Stefano and Melodia, Tommaso and Maccari, Leonardo and Cigno, Renato Lo},
+  journal={arXiv preprint arXiv:2102.03750},
+
+  html={https://arxiv.org/abs/2102.03750},
+  year={2021}
+}
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2020   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Journals   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+@article{al2020massive,
+  abbr={Journal},
+
+  abstract={Recent research has proved the effectiveness of neural networks (NNs) in “fingerprinting” (i.e., identifying) wireless radios, by determining the hardware impairments emitted from the transmitter during the waveform transmission process. The artificial neurons of the NN layers are employed to identify and track the radios’ unique impairments by training a large amount of raw data released from these radios. Today, the radio fingerprinting field lacks such a large-scale waveform database that can provide a standard benchmark for researchers working on this field. In this paper, we publicly share 2TB of IEEE 802.11 a/g (WiFi) data obtained from 20 bit-similar Software-Defined-Radios (SDRs).},
+
+  title={Massive-Scale I/Q Datasets for WiFi Radio Fingerprinting},
+  author={Al-Shawabka, Amani and Restuccia, Francesco and D’Oro, Salvatore and Melodia, Tommaso},
+  journal={Computer Networks},
+  volume={182},
+  pages={107566},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128620312123},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{bertizzolo2020arena,
+  abbr={Journal},
+
+  abstract={Arena is an open-access wireless testing platform based on a grid of antennas mounted on the ceiling of a large
+  office-space environment. Each antenna is connected to programmable software-defined radios (SDR) enabling
+  sub-6 GHz 5G-and-beyond spectrum research. With 12 computational servers, 24 SDRs synchronized at the
+  symbol level, and a total of 64 antennas, Arena provides the computational power and the scale to foster new
+  technology development in some of the most crowded spectrum bands. Arena is based on a three-tier design,
+  where the servers and the SDRs are housed in a double rack in a dedicated room, while the antennas are hung off
+  the ceiling of a 2240 square feet office space and cabled to the radios through 100 ft-long cables. This ensures a
+  reconfigurable, scalable, and repeatable real-time experimental evaluation in a real wireless indoor environment.
+  In this paper, we introduce the architecture, capabilities, and system design choices of Arena, and provides
+  details of the software and hardware implementation of various testbed components. Furthermore, we describe
+  key capabilities by providing examples of published work that employed Arena for applications as diverse as
+  synchronized MIMO transmission schemes, multi-hop ad hoc networking, multi-cell 5G networks, AI-powered
+  Radio-Frequency fingerprinting, secure wireless communications, and spectrum sensing for cognitive radio.},
+
+  title={Arena: A 64-antenna SDR-based ceiling grid testing platform for sub-6 GHz 5G-and-Beyond radio spectrum research},
+  author={Bertizzolo, Lorenzo and Bonati, Leonardo and Demirors, Emrecan and Al-Shawabka, Amani and D’Oro, Salvatore and Restuccia, Francesco and Melodia, Tommaso},
+  journal={Computer Networks},
+  volume={181},
+  pages={107436},
+  year={2020},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128620311257},
+  publisher={Elsevier}
+}
 
 
 
@@ -552,5 +664,88 @@
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Conferences   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+@inproceedings{moayyed2020comparative,
+  abbr={Conference},
+
+  abstract={The extremely high data rates provided by communications in the millimeter-length (mmWave) frequency bands can help address the unprecedented demands of next-generation wireless communications. However, atmospheric attenuation and high propagation loss severely limit the coverage of mmWave networks. To overcome these challenges, multi-input-multi-output (MIMO) provides beamforming capabilities and high-gain steerable antennas to expand communication coverage at mmWave frequencies. The main contribution of this paper is the performance evaluation of mmWave communications on top of the recently released NR standard for 5G cellular networks. Furthermore, we compare the performance of NR with the 4G long-term evolution (LTE) standard on a highly realistic campus environment. We consider physical layer constraints such as transmit power, ambient noise, receiver noise figure, and practical antenna gain in both cases, and examine bitrate and area coverage as the criteria to benchmark the performance. We also show the impact of MIMO technology to improve the performance of the 5G NR cellular network. Our evaluation demonstrates that 5G NR provides on average 6.7 times bitrate improvement without remarkable coverage degradation.},
+
+  title={Comparative performance evaluation of mmWave 5G NR and LTE in a campus scenario},
+  author={Moayyed, Miead Tehrani and Restuccia, Francesco and Basagni, Stefano},
+  booktitle={2020 IEEE 92nd Vehicular Technology Conference (VTC2020-Fall)},
+
+  html={https://ieeexplore.ieee.org/abstract/document/9348727},
+  pages={1--5},
+  year={2020},
+  organization={IEEE}
+}
+
+
+@inproceedings{maselli2020hyblose,
+  abbr={Conference},
+
+  abstract={Although smart environments are a key component of the Internet of Things (IoT), it is also clear that billions connected doors, washing machines, ovens and others will ultimately raise security and privacy concerns. Early work in this area, as well as most of commercial solutions, has adopted a centralized client/server approach, neglecting the multitude of risks that are induced by an unfair control of the server side. This has made the adoption of a decentralized and trust-less framework quintessential to guarantee devices security. Nevertheless, decentralized proposals are hardly applicable due to costs, slowness and privacy issues. In this paper, we make the use of blockchain practical for smart environments by designing HyBloSE, a secure-by-design and lightweight blockchain-based framework, able to run on low-power devices without additional hardware. HyBloSE is built by using Delegated Proof of Authority and a Moving Window Blockchain. We evaluate HyBloSE through a network emulator and real experiments with different Raspberry Pi platforms. Results show that HyBloSE guarantees a higher security level in terms of resiliency to internal and external attacks compared to centralized solutions, with overhead below 0.38s per operation and less than $4 per month for unlimited operations. Furthermore, we show how Proof of Authority is more adapt then Proof of Work in IoT private scenarios.},
+
+
+  title={HyBloSE: hybrid blockchain for secure-by-design smart environments},
+  author={Maselli, Gaia and Piva, Mauro and Restuccia, Francesco},
+  booktitle={Proceedings of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems},
+  html={https://dl.acm.org/doi/abs/10.1145/3410699.3413793},
+
+  pages={23--28},
+  year={2020}
+}
+
+
+
+@inproceedings{restuccia2020generalized,
+  abbr={Conference},
+
+  abstract={Deep learning techniques can classify spectrum phenomena (e.g., waveform modulation) with accuracy levels that were once thought impossible. Although we have recently seen many advances in this field, extensive work in computer vision has demonstrated that an adversary can "crack" a classifier by designing inputs that "steer" the classifier away from the ground truth. This paper advances the state of the art by proposing a generalized analysis and evaluation of adversarial machine learning (AML) attacks to deep learning systems in the wireless domain. We postulate a series of adversarial attacks, and formulate a Generalized Wireless Adversarial Machine Learning Problem (GWAP) where we analyze the combined effect of the wireless channel and the adversarial waveform on the efficacy of the attacks. We extensively evaluate the performance of our attacks on a state-of-the-art 1,000-device radio fingerprinting dataset, and a 24-class modulation dataset. Results show that our algorithms can decrease the classifiers' accuracy up to 3x while keeping the waveform distortion to a minimum.},
+
+
+  title={Generalized wireless adversarial deep learning},
+  author={Restuccia, Francesco and D'Oro, Salvatore and Al-Shawabka, Amani and Rendon, Bruno Costa and Chowdhury, Kaushik and Ioannidis, Stratis and Melodia, Tommaso},
+
+  html={https://dl.acm.org/doi/abs/10.1145/3395352.3402625},
+
+  booktitle={Proceedings of the 2nd ACM Workshop on Wireless Security and Machine Learning},
+  pages={49--54},
+  year={2020}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preprints   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{restuccia2020deepfir,
+
+  abbr={Preprint},
+
+
+  abstract={ Deep learning can be used to classify waveform characteristics (e.g., modulation) with accuracy levels that are hardly attainable with traditional techniques. Recent research has demonstrated that one of the most crucial challenges in wireless deep learning is to counteract the channel action, which may significantly alter the waveform features. The problem is further exacerbated by the fact that deep learning algorithms are hardly re-trainable in real time due to their sheer size. This paper proposes DeepFIR, a framework to counteract the channel action in wireless deep learning algorithms without retraining the underlying deep learning model. The key intuition is that through the application of a carefully-optimized digital finite input response filter (FIR) at the transmitter's side, we can apply tiny modifications to the waveform to strengthen its features according to the current channel conditions. We mathematically formulate the Waveform Optimization Problem (WOP) as the problem of finding the optimum FIR to be used on a waveform to improve the classifier's accuracy. We also propose a data-driven methodology to train the FIRs directly with dataset inputs. We extensively evaluate DeepFIR on a experimental testbed of 20 software-defined radios, as well as on two datasets made up by 500 ADS-B devices and by 500 WiFi devices and a 24-class modulation dataset. Experimental results show that our approach (i) increases the accuracy of the radio fingerprinting models by about 35%, 50% and 58%; (ii) decreases an adversary's accuracy by about 54% when trying to imitate other device's fingerprints by using their filters; (iii) achieves 27% improvement over the state of the art on a 100-device dataset; (iv) increases by 2x the accuracy of the modulation dataset. },
+
+
+  title={DeepFIR: Addressing the Wireless Channel Action in Physical-Layer Deep Learning},
+  author={Restuccia, Francesco and D'Oro, Salvatore and Al-Shawabka, Amani and Rendon, Bruno Costa and Ioannidis, Stratis and Melodia, Tommaso},
+  journal={arXiv preprint arXiv:2005.04226},
+
+  html={https://arxiv.org/abs/2005.04226},
+  year={2020}
+}
 
 
