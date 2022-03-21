@@ -245,6 +245,40 @@
 }
 
 
+@article{restuccia2021deepfir,
+  abbr={Journal},
+  abstract={Deep learning can be used to classify waveform characteristics ( e.g. , modulation) with accuracy levels that are hardly attainable with traditional techniques. Recent research has demonstrated that one of the most crucial challenges in wireless deep learning is to counteract the channel action, which may significantly alter the waveform features. The problem is further exacerbated by the fact that deep learning algorithms are hardly re-trainable in real time due to their sheer size. This paper proposes DeepFIR , a framework to counteract the channel action in wireless deep learning algorithms without retraining the underlying deep learning model . The key intuition is that through the application of a carefully-optimized digital finite input response filter (FIR) at the transmitter’s side, we can apply tiny modifications to the waveform to strengthen its features according to the current channel conditions. We mathematically formulate the Waveform Optimization Problem (WOP) as the problem of finding the optimum FIR to be used on a waveform to improve the classifier’s accuracy. We also propose a data-driven methodology to train the FIRs directly with dataset inputs. We extensively evaluate DeepFIR on an experimental testbed of 20 software-defined radios, as well as on two datasets made up by 500 ADS-B devices and by 500 WiFi devices and a 24-class modulation dataset. Experimental results show that our approach (i) increases the accuracy of the radio fingerprinting models by about 35%, 50% and 58%; (ii) decreases an adversary’s accuracy by about 54% when trying to imitate other device’s fingerprints by using their filters; (iii) achieves 27% improvement over the state of the art on a 100-device dataset; (iv) increases by 2× the accuracy of the modulation dataset.},
+
+  title={DeepFIR: Channel-Robust Physical-Layer Deep Learning Through Adaptive Waveform Filtering},
+  author={Restuccia, Francesco and D’Oro, Salvatore and Al-Shawabka, Amani and Rendon, Bruno Costa and Ioannidis, Stratis and Melodia, Tommaso},
+  journal={IEEE Transactions on Wireless Communications},
+  volume={20},
+  number={12},
+  pages={8054--8066},
+  html={https://ieeexplore.ieee.org/abstract/document/9470953},
+  year={2021},
+  publisher={IEEE}
+}
+
+
+
+@article{d2021coordinated,
+  abbr={Journal},
+
+  abstract={Radio access network (RAN) slicing is a virtualization technology that partitions radio resources into multiple autonomous virtual networks. Since RAN slicing can be tailored to provide diverse performance requirements, it will be pivotal to achieve the high-throughput and low-latency communications that next-generation (5G) systems have long yearned for. To this end, effective RAN slicing algorithms must (i) partition radio resources so as to leverage coordination among multiple base stations and thus boost network throughput; and (ii) reduce interference across different slices to guarantee slice isolation and avoid performance degradation. The ultimate goal of this paper is to design RAN slicing algorithms that address the above two requirements. First, we show that the RAN slicing problem can be formulated as a 0-1 Quadratic Programming problem, and we prove its NP-hardness. Second, we propose an optimal solution for small-scale 5G network deployments, and we present three approximation algorithms to make the optimization problem tractable when the network size increases. We first analyze the performance of our algorithms through simulations, and then demonstrate their performance through experiments on a standard-compliant LTE testbed with 2 base stations and 6 smartphones. Our results show that not only do our algorithms efficiently partition RAN resources, but also improve network throughput by 27% and increase by 2× the signal-to-interference-plus-noise ratio.},
+
+
+  title={Coordinated 5G network slicing: How constructive interference can boost network throughput},
+  author={D’Oro, Salvatore and Bonati, Leonardo and Restuccia, Francesco and Melodia, Tommaso},
+  journal={IEEE/ACM Transactions on Networking},
+  volume={29},
+  number={4},
+  pages={1881--1894},
+  year={2021},
+
+  html={https://ieeexplore.ieee.org/abstract/document/9411723},
+  publisher={IEEE}
+}
 
 
 
@@ -347,12 +381,154 @@
 @inproceedings{piva2021tags,
   abbr={Conference},
   abstract={Millions of RFID tags are pervasively used all around the globe to inexpensively identify a wide variety of everyday-use objects. One of the key issues of RFID is that tags cannot use energy-hungry cryptography, and thus can be easily cloned. For this reason, radio fingerprinting (RFP) is a compelling approach that leverages the unique imperfections in the tag's wireless circuitry to achieve large-scale RFID clone detection. Recent work, however, has unveiled that time-varying channel conditions can significantly decrease the accuracy of the RFP process. Prior art in RFID identification does not consider this critical aspect, and instead focuses on custom-tailored feature extraction techniques and data collection with static channel conditions. For this reason, we propose the first large-scale investigation into RFP of RFID tags with dynamic channel conditions. Specifically, we perform a massive data collection campaign on a testbed composed by 200 off-the-shelf identical RFID tags and a software-defined radio (SDR) tag reader. We collect data with different tag-reader distances in an over-the-air configuration. To emulate implanted RFID tags, we also collect data with two different kinds of porcine meat inserted between the tag and the reader. We use this rich dataset to train and test several convolutional neural network (CNN)-based classifiers in a variety of channel conditions. Our investigation reveals that training and testing on different channel conditions drastically degrades the classifier's accuracy. For this reason, we propose a novel training framework based on federated machine learning (FML) and data augmentation (DAG) to boost the accuracy. Extensive experimental results indicate that (i) our FML approach improves accuracy by up to 48%; (ii) our DAG approach improves the FML performance by up to 19% and the single-dataset performance by 31%. To the best of our knowledge, this is the first paper experimentally demonstrating the efficacy of FML and DAG on a large device population. To allow full replicability, we are sharing with the research community our fully-labeled 200-GB RFID waveform dataset, as well as the entirety of our code and trained models, concurrently with our submission.},
+
   title={The Tags Are Alright: Robust Large-Scale RFID Clone Detection Through Federated Data-Augmented Radio Fingerprinting},
   author={Piva, Mauro and Maselli, Gaia and Restuccia, Francesco},
   booktitle={Proceedings of the Twenty-second International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
   html={https://dl.acm.org/doi/abs/10.1145/3466772.3467033},
   pages={41--50},
   year={2021}
+}
+
+
+@inproceedings{polese2021deepbeam,
+  abbr={Conference},
+  abstract={Highly directional millimeter wave (mmWave) radios need to perform beam management to establish and maintain reliable links. To achieve this objective, existing solutions mostly rely on explicit coordination between the transmitter (TX) and the receiver (RX), which significantly reduces the airtime available for communication and further complicates the network protocol design. This paper advances the state of the art by presenting DeepBeam, a framework for beam management that does not require pilot sequences from the TX, nor any beam sweeping or synchronization from the RX. This is achieved by inferring (i) the Angle of Arrival (AoA) of the beam and (ii) the actual beam being used by the transmitter through waveform-level deep learning on ongoing transmissions between the TX to other receivers. In this way, the RX can associate Signal-to-Noise-Ratio (SNR) levels to beams without explicit coordination with the TX. This is possible because different beam patterns introduce different "impairments" to the waveform, which can be subsequently learned by a convolutional neural network (CNN). To demonstrate the generality of DeepBeam, we conduct an extensive experimental data collection campaign where we collect more than 4 TB of mmWave waveforms with (i) 4 phased array antennas at 60.48 GHz, (ii) 2 codebooks containing 24 one-dimensional beams and 12 two-dimensional beams; (iii) 3 receiver gains; (iv) 3 different AoAs; (v) multiple TX and RX locations. Moreover, we collect waveform data with two custom-designed mmWave software-defined radios with fully-digital beamforming architectures at 58 GHz. We also implement our learning models in FPGA to evaluate latency performance. Results show that DeepBeam (i) achieves accuracy of up to 96%, 84% and 77% with a 5-beam, 12-beam and 24-beam codebook, respectively; (ii) reduces latency by up to 7x with respect to the 5G NR initial beam sweep in a default configuration and with a 12-beam codebook. The waveform dataset and the full DeepBeam code repository are publicly available.},
+
+  title={DeepBeam: Deep Waveform Learning for Coordination-Free Beam Management in mmWave Networks},
+  author={Polese, Michele and Restuccia, Francesco and Melodia, Tommaso},
+  booktitle={Proceedings of the Twenty-second International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing},
+  html={https://dl.acm.org/doi/abs/10.1145/3466772.3467035},
+  pages={61--70},
+  year={2021}
+}
+
+
+@inproceedings{ghiro2021blockchain,
+  abbr={Conference},
+  abstract={The term blockchain is used for disparate projects, ranging from cryptocurrencies to applications for the Internet of Things (IoT). The concept of blockchain appears therefore blurred, as the same technology cannot empower applications with extremely different requirements, levels of security and performance. This position paper elaborates on the theory of distributed systems to advance a clear definition of blockchain allowing us to clarify its possible role in the IoT. The definition binds together three elements that, as a whole, delineate those unique features that distinguish the blockchain from other distributed ledger technologies: immutability, transparency and anonymity. We note that immutability-which is imperative for securing blockchains-imposes remarkable resource consumption. Moreover, while transparency demands no confidentiality, anonymity enhances privacy but prevents user identification. As such, we raise the concern that these blockchain features clash with the requirements of most IoT applications where devices are power-constrained, data needs to be kept confidential, and users to be clearly identifiable. We consequently downplay the role of the blockchain for the IoT: this can act as a ledger external to the IoT architecture, invoked as seldom as possible and only to record the aggregate results of myriads of local (IoT) transactions that are most of the time performed off-chain to meet performance and scalability requirements.},
+  
+  title={A Blockchain Definition to Clarify its Role for the Internet of Things},
+
+  author={Ghiro, Lorenzo and Restuccia, Francesco and D'Oro, Salvatore and Basagni, Stefano and Melodia, Tommaso and Maccari, Leonardo and Cigno, Renato Lo},
+  booktitle={2021 19th Mediterranean Communication and Computer Networking Conference (MedComNet)},
+  pages={1--8},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9501280},
+  organization={IEEE}
+}
+
+
+
+@inproceedings{uvaydov2021deepsense,
+  abbr={Conference},
+
+  abstract={Spectrum sharing will be a key technology to tackle
+  spectrum scarcity in the sub-6 GHz bands. To fairly access the
+  shared bandwidth, wireless users will necessarily need to quickly
+  sense large portions of spectrum and opportunistically access
+  unutilized bands. The key unaddressed challenges of spectrum
+  sensing are that (i) it has to be performed with extremely low
+  latency over large bandwidths to detect tiny spectrum holes and
+  to guarantee strict real-time digital signal processing (DSP) con-
+  straints; (ii) its underlying algorithms need to be extremely accu-
+  rate, and flexible enough to work with different wireless bands
+  and protocols to find application in real-world settings. To the
+  best of our knowledge, the literature lacks spectrum sensing tech-
+  niques able to accomplish both requirements. In this paper, we
+  propose DeepSense, a software/hardware framework for real-time
+  wideband spectrum sensing that relies on real-time deep learn-
+  ing tightly integrated into the transceiver’s baseband processing
+  logic to detect and exploit unutilized spectrum bands. DeepSense
+  uses a convolutional neural network (CNN) implemented in the
+  wireless platform’s hardware fabric to analyze a small portion of
+  the unprocessed baseband waveform to automatically extract the
+  maximum amount of information with the least amount of I/Q
+  samples. We extensively validate the accuracy, latency and gen-
+  erality performance of DeepSense with (i) a 400 GB dataset con-
+  taining hundreds of thousands of WiFi transmissions collected “in
+  the wild” with different Signal-to-Noise-Ratio (SNR) conditions
+  and over different days; (ii) a dataset of transmissions collected
+  using our own software-defined radio testbed; and (iii) a synthetic
+  dataset of LTE transmissions under controlled SNR conditions.
+  We also measure the real-time latency of the CNNs trained on
+  the three datasets with an FPGA implementation, and compare
+  our approach with a fixed energy threshold mechanism. Results
+  show that our learning-based approach can deliver a precision
+  and recall of 98% and 97% respectively and a latency as low
+  as 0.61ms. For reproducibility and benchmarking purposes, we
+  pledge to share the code and the datasets used in this paper to
+  the community.},
+
+  title={Deepsense: Fast wideband spectrum sensing through real-time in-the-loop deep learning},
+  author={Uvaydov, Daniel and D’Oro, Salvatore and Restuccia, Francesco and Melodia, Tommaso},
+  booktitle={IEEE INFOCOM 2021-IEEE Conference on Computer Communications},
+  pages={1--10},
+
+  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9488764},
+  year={2021},
+  organization={IEEE}
+}
+
+@inproceedings{d2021can,
+  abbr={Conference},
+  abstract= {Due to the sheer scale of the Internet of Things (IoT)
+  and 5G, the wireless spectrum is becoming severely congested.
+  For this reason, wireless devices will need to continuously adapt
+  to current spectrum conditions by changing their communication
+  parameters in real-time. Therefore, wireless signal classification
+  (WSC) will become a compelling necessity to decode fast-changing
+  signals from dynamic transmitters. Thanks to its capability of
+  classifying complex phenomena without explicit mathematical
+  modeling, deep learning (DL) has been demonstrated to be a key
+  enabler of WSC. Although DL can achieve a very high accuracy
+  under certain conditions, recent research has unveiled that the
+  wireless channel can disrupt the features learned by the DL model
+  during training, thus drastically reducing the classification per-
+  formance in real-world live settings. Since retraining classifiers
+  is cumbersome after deployment, existing work has leveraged
+  the usage of carefully-tailored Finite Impulse Response (FIR)
+  filters that, when applied at the transmitter’s side, can restore
+  the features that are lost because of the the channel actions,
+  i.e., waveform synthesis. However, these approaches compute FIRs
+  using offline optimization strategies, which limits their efficacy
+  in highly-dynamic channel settings. In this paper, we improve
+  the state of the art by proposing Chares, a Deep Reinforcement
+  Learning (DRL)-based framework for channel-resilient adaptive
+  waveform synthesis. Chares adapts to new and unseen channel
+  conditions by optimally computing through DRL the FIRs in real
+  time. Chares is a DRL agent whose architecture is based upon
+  the Twin Delayed Deep Deterministic Policy Gradients (TD3),
+  which requires minimal feedback from the receiver and explores a
+  continuous action space for best performance. Chares has been ex-
+  tensively evaluated on two well-known datasets with an extensive
+  number of channels. We have also evaluated the real-time latency
+  of Chares with an implementation on field-programmable gate
+  array (FPGA). Results show that Chares increases the accuracy
+  up to 4.1x when no waveform synthesis is performed, by 1.9x with
+  respect to existing work, and can compute new actions within 41μs.},
+
+  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9488865},
+  title={Can You Fix My Neural Network? Real-Time Adaptive Waveform Synthesis for Resilient Wireless Signal Classification},
+  author={D’Oro, Salvatore and Restuccia, Francesco and Melodia, Tommaso},
+  booktitle={IEEE INFOCOM 2021-IEEE Conference on Computer Communications},
+  pages={1--10},
+  year={2021},
+  organization={IEEE}
+}
+
+
+@inproceedings{bonati2021stealte,
+  abbr={Conference},
+  abstract={Fifth-generation (5G) systems will extensively employ radio access network (RAN) softwarization. This key innovation enables the instantiation of "virtual cellular networks" running on different slices of the shared physical infrastructure. In this paper, we propose the concept of Private Cellular Connectivity as a Service (PCCaaS), where infrastructure providers deploy covert network slices known only to a subset of users. We then present SteaLTE as the first realization of a PCCaaS-enabling system for cellular networks. At its core, SteaLTE utilizes wireless steganography to disguise data as noise to adversarial receivers. Differently from previous work, however, it takes a full-stack approach to steganography, contributing an LTE-compliant stegano-graphic protocol stack for PCCaaS-based communications, and packet schedulers and operations to embed covert data streams on top of traditional cellular traffic (primary traffic). SteaLTE balances undetectability and performance by mimicking channel impairments so that covert data waveforms are almost indistinguishable from noise. We evaluate the performance of SteaLTE on an indoor LTE-compliant testbed under different traffic profiles, distance and mobility patterns. We further test it on the outdoor PAWR POWDER platform over long-range cellular links. Results show that in most experiments SteaLTE imposes little loss of primary traffic throughput in presence of covert data transmissions (<; 6%), making it suitable for undetectable PCCaaS networking.},
+
+  title={SteaLTE: Private 5G Cellular Connectivity as a Service with Full-stack Wireless Steganography},
+  author={Bonati, Leonardo and D’Oro, Salvatore and Restuccia, Francesco and Basagni, Stefano and Melodia, Tommaso},
+  booktitle={IEEE INFOCOM 2021-IEEE Conference on Computer Communications},
+  pages={1--10},
+  year={2021},
+  html={https://ieeexplore.ieee.org/abstract/document/9488889},
+  organization={IEEE}
 }
 
 
