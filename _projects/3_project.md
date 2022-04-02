@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <br> Securing Comparmented Information With Smart Radio Systems
+title: <br> <br> Securing Comparmented Information With Smart Radio Systems
 description:
 img: assets/img/IARPA.png
 importance: 3
