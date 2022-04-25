@@ -3,7 +3,7 @@ layout: page
 title: RINGS: Internet of Things Resilience through Spectrum-Agile Circuits, Learning-Based Communications and Thermal Hardware Security
 description:
 img: assets/img/NSF.png
-importance: 2
+importance: 4
 category: work
 ---
 
