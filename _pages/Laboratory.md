@@ -36,22 +36,34 @@ nav: true
         <tr>
             <!-- <td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td> -->
+
         </tr>
         <tr>
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Starting Summer 2022)<br><br></td>
-            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
-        </tr>
-        <tr>
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-        </tr>
-        <tr>
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://bd.linkedin.com/in/shahriar-rifat-aa1b60bb"> Shahriar Rifat</a> </strong> <br>Ph.D. Student (Starting Summer 2022)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://bd.linkedin.com/in/shahriar-rifat-aa1b60bb"> Shahriar Rifat</a> </strong> <br>Ph.D. Student (Joined Summer 2022)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/S.jpg" alt="Shahriar" width="135" height="150"></td> -->
         </tr>
         <tr>
             <!--<td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td> -->
+            
+        </tr>
+        <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/andrew-ashdown-3b55701b2/"> Andrew Ashdown </a> </strong> <br>Ph.D. Student (Joined Summer 2022)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/S.jpg" alt="Shahriar" width="135" height="150"></td> -->
+        </tr>
+        <tr>
+            <!--<td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
+            
+        </tr>
+        <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Starting Fall 2022)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
+        </tr>
+        <tr>
+            <!-- <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
+            
         </tr>
     </tbody>
 </table>
