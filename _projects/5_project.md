@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CC* Integration-Small: A Software-Defined Edge Infrastructure Testbed for Full-stack Data-Driven Wireless Network Applications"
+title: " <br> <br> CC* Integration-Small: A Software-Defined Edge Infrastructure Testbed for Full-stack Data-Driven Wireless Network Applications"
 description:
 img: assets/img/NSF.png
 importance: 5
