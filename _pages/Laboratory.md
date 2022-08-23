@@ -48,7 +48,7 @@ nav: true
             
         </tr>
         <tr>
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Starting Fall 2022)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Starting Spring 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
