@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CCF: SHF: Small: Self-Adaptive Interference-Avoiding Wireless Receiver Hardware through Real-Time Learning-Based Automatic Optimization of Power-Efficient Integrated Circuits"
+title: "Self-Adaptive Interference-Avoiding Wireless Receiver Hardware through Real-Time Learning-Based Automatic Optimization of Power-Efficient Integrated Circuits"
 description:
 img: assets/img/NSF.png
 importance: 6
