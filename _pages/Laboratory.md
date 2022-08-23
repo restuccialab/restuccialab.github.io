@@ -67,6 +67,25 @@ nav: true
     </tbody>
 </table>
 
+
+
+<h2>Alumni:</h2>
+
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/niloofar-bahadori">Niloofar Bahadori </a> </strong><br>Postdoctoral Fellow<br><br></td>
+            <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
+        </tr>
+        <tr>
+            <!-- <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
+            
+        </tr>
+    </tbody>
+</table>
+
+
 <h1>Openings</h1>
 
 <strong>We have multiple openings at the Roux Institute in Portland, Maine.</strong>
