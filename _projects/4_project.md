@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "<br> <br> <br> RINGS: Internet of Things Resilience through Spectrum-Agile Circuits, and Maintenance Tools for the Wireless Community"
+title: "<br> <br> <br>Internet of Things Resilience through Spectrum-Agile Circuits, and Maintenance Tools for the Wireless Community"
 description:
 img: assets/img/NSF.png
 importance: 4
