@@ -21,4 +21,4 @@ The project is expected to improve at least 100x over software-based systems, th
 
 This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
 
-NSF Abstract:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472</a>
+NSF Abstract: <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472</a>
