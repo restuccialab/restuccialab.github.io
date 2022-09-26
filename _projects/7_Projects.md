@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "SWIFT: AI-based Sensing for Improved Resiliency via Spectral Adaptation with Lifelong Learning"
+title: "Polymorphic Wireless Computing for Ultra-Wideband 6G Spectrum Dominance"
 description:
 img: assets/img/NSF.png
-importance: 7
+importance: 8
 category: work
 ---
 
@@ -15,10 +15,8 @@ category: work
 </style>
 <img src="/assets/img/NSF.png" class="nsf" alt="NSF Logo">
 
-Resilience to interference via improved spectrum access requires fast sensing, cognition, and actionable intelligence to algorithmically enforce compliance in real-time. The ability to measure spectrum usage, quantify legitimate uses, detect violations and enforce compliance directly leads to improved spectrum utilization, coexistence of multiple competing users, and enhanced security. To this end, this SWIFT project will demonstrate a system for spectral situational awareness through radio frequency (RF) machine learning (ML). The key objective is to obtain actionable spectrum intelligence in the sub-6 GHz legacy bands through a real-time understanding of waveform shapes, spectral content, and modulation schemes. The research will create lifelong incremental learning approaches to spectrum management and dynamic spectrum access, enabled by advanced hardware innovations.
 
-The project is expected to improve at least 100x over software-based systems, through a combination of array processing, reliable AI with lifelong learning algorithms, low-complexity AI, and digital signal processing. Specifically, AI techniques will be used to achieve spectrum intelligence, and more specifically data driven techniques, such as deep learning, towards real-time processing of wideband multi-directional RF signals carrying a diverse set of waveforms, modulations, and protocols. Led by Florida International University (FIU) - South Florida's largest public research R1 university with 67+% Hispanic students, this SWIFT team will include many under-represented students, who in summer research, will learn key concepts in spectrum sensing. PIs at Embry-Riddle Aeronautical University will spearhead efforts in mentoring women in science, technology, engineering, and mathematics. The PI at Northeastern University will focus on creating graduate teaching materials in wireless communications and RF-ML based on Colosseum (the world's largest RF emulator) and the PAWR platforms. The team will develop and maintain public open datasets for training AI radios for usability and reproducibility of the scientific community.
+Achieving technological dominance in 6G wireless networks is of fundamental strategic importance to the economic well-being of the United States. To concretely deploy terabit-per-second communication links, fundamental research breakthroughs are needed to rethink how computing will be conducted in 6G wireless systems. To this end, this project will lay the foundations of a new paradigm named polymorphic wireless computing. We will research novel techniques that will seamlessly adapt not only the underlying algorithmic structure, but also the hardware and software structure of the 6G wireless platform according to ongoing mission-driven objectives, existing network/spectrum operating conditions, and current performance metrics of interest, while being able to operate at several GHz of bandwidth. To this end, we will perform highly interdisciplinary research  at the intersection of machine learning, embedded systems, wireless networking and wireless security. To reduce our research to practice, we will prototype our  techniques on software-defined radio platforms equipped with reconfigurable hardware; and leverage unique state-of-the-art facilities at Northeastern University to perform extensive experimental evaluation in realistic use-case scenarios. 
 
-This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
 
-NSF Abstract:  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2229472</a>
+Abstract:  <a href="https://www.nre.navy.mil/2023-young-investigators">https://www.nre.navy.mil/2023-young-investigators</a>
