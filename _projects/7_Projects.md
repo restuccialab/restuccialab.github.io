@@ -9,8 +9,8 @@ category: work
 
 <style>
 .nsf {
-  width: 135px;
-  height: 145px;
+  width: 300px;
+  height: 300px;
 }
 </style>
 <img src="/assets/img/onr2.png" class="nsf" alt="ONR Logo">
