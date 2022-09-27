@@ -10,7 +10,7 @@ category: work
 <style>
 .nsf {
   width: 135px;
-  height: 135px;
+  height: 145px;
 }
 </style>
 <img src="/assets/img/onr.png" class="nsf" alt="ONR Logo">
