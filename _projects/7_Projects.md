@@ -1,7 +1,7 @@
 ---
 layout: page
 padding-bottom: 1cm
-title: <br> <br> <br> Polymorphic Wireless Computing for Ultra-Wideband 6G Spectrum Dominance
+title: <br> <br> <br> <br> Polymorphic Wireless Computing for Ultra-Wideband 6G Spectrum Dominance
 description:
 img: assets/img/onr4.png
 importance: 8
