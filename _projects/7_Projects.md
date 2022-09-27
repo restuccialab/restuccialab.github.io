@@ -2,7 +2,7 @@
 layout: page
 title: "Polymorphic Wireless Computing for Ultra-Wideband 6G Spectrum Dominance"
 description:
-img: assets/img/NSF.png
+img: assets/img/onr.png
 importance: 8
 category: work
 ---
