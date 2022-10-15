@@ -54,6 +54,38 @@ nav: true
         <tr>
             <!-- <td style="width: 65.2948%;"><br><br></td>
             <td style="width: 49.9422%;"><br></td> -->
+        </tr>
+        <tr>
+            
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://tanzilbinhassan.com/">Tanzil Bin Hasan </a> </strong><br>Ph.D. Student (Starting from Spring 2023)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
+        </tr>
+        <tr>
+            <!-- <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
+       
+        </tr>
+        <tr>
+            
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/sazzad-sayyed-74a4a4180/">Sazzad Sayyed</a> </strong><br>Ph.D. Student (Starting from Spring 2023)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
+        </tr>
+        <tr>
+            
+            
+            
+            <!-- <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
+       
+        </tr>
+        <tr>
+            
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/md-ebtidaul-karim-a96a0b162/">Md. Ebtidaul Karim</a> </strong><br>Ph.D. Student (Starting from Spring 2023)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
+        </tr>
+        <tr>
+            <!-- <td style="width: 65.2948%;"><br><br></td>
+            <td style="width: 49.9422%;"><br></td> -->
             
         </tr>
     </tbody>
