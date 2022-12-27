@@ -12,7 +12,7 @@ nav: true
 <table style="width: 100%;">
     <tbody>
         <tr>
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://kfoysalhaque.github.io/">Foysal Haque </a> </strong> <br>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://kfoysalhaque.github.io/">K. Foysal Haque </a> </strong> <br>
                 Ph.D. Student (Joined Fall 2021)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/F.jpg" alt="Foysal" width="125" height="150"></td> -->
         </tr>
@@ -57,7 +57,7 @@ nav: true
         </tr>
         <tr>
             
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://tanzilbinhassan.com/">Tanzil Bin Hasan </a> </strong><br>Ph.D. Student (Starting Spring 2023)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://tanzilbinhassan.com/">Tanzil Bin Hasan </a> </strong><br>Ph.D. Student (Joined Spring 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
@@ -67,7 +67,7 @@ nav: true
         </tr>
         <tr>
             
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/sazzad-sayyed-74a4a4180/">Sazzad Sayyed</a> </strong><br>Ph.D. Student (Starting Spring 2023)<br><br></td>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/sazzad-sayyed-74a4a4180/">A.M.Q. Sazzad Sayyed</a> </strong><br>Ph.D. Student (Joined Spring 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
