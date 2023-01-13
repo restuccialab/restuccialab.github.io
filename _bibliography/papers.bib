@@ -2,6 +2,24 @@
 ---
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2023   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@INPROCEEDINGS{puligheddu2023sem,
+  abbr={Conference}, 
+  bibtex_show={true}, 
+  title={SEM-O-RAN: Semantic and Flexible O-RAN Slicing for NextG Edge-Assisted Mobile Systems},
+  author={Puligheddu, Corrado and Ashdown, Jonathan and Chiasserini, Carla Fabiana and Restuccia, Francesco},
+  booktitle={Proc. of IEEE Conference on Computer Communications (INFOCOM), Preprint: https://arxiv.org/abs/2212.11853}, 
+  abstract={5G and beyond cellular networks (NextG) will support the continuous execution of resource-expensive edge-assisted deep learning (DL) tasks. To this end, Radio Access Network (RAN) resources will need to be carefully "sliced" to satisfy heterogeneous application requirements while minimizing RAN usage. Existing slicing frameworks treat each DL task as equal and inflexibly define the resources to assign to each task, which leads to sub-optimal performance. In this paper, we propose SEM-O-RAN, the first semantic and flexible slicing framework for NextG Open RANs. Our key intuition is that different DL classifiers can tolerate different levels of image compression, due to the semantic nature of the target classes. Therefore, compression can be semantically applied so that the networking load can be minimized. Moreover, flexibility allows SEM-O-RAN to consider multiple edge allocations leading to the same task-related performance, which significantly improves system-wide performance as more tasks can be allocated. First, we mathematically formulate the Semantic Flexible Edge Slicing Problem (SF-ESP), demonstrate that it is NP-hard, and provide an approximation algorithm to solve it efficiently. Then, we evaluate the performance of SEM-O-RAN through extensive numerical analysis with state-of-the-art multi-object detection (YOLOX) and image segmentation (BiSeNet V2), as well as real-world experiments on the Colosseum testbed. Our results show that SEM-O-RAN improves the number of allocated tasks by up to 169% with respect to the state of the art.},
+  year={2023}
+}
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2022   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -69,7 +87,7 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
 
 
 
-@inproceedings{10.1145/3556564.3558239, abbr={Conference}, author = {Busacca, Fabio and Mangione, Stefano and Tinnirello, Ilenia and Palazzo, Sergio and Restuccia, Francesco}, title = {SDR-LoRa: Dissecting and Implementing LoRa on Software-Defined Radios to Advance Experimental IoT Research}, year = {2022}, isbn = {9781450395274}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3556564.3558239}, doi = {10.1145/3556564.3558239}, abstract = {In this paper, we present SDR-LoRa, a full-fledged SDR implementation of a LoRa transmitter and receiver. First, we reverse-engineer the LoRa physical layer (PHY) functionalities, including the procedures of packet modulation, demodulation, and preamble detection. Based on this analysis, we develop the first Software Defined Radio (SDR) implementation of the LoRa PHY. Furthermore, we integrate LoRa with an Automatic Repeat Request (ARQ) error detection protocol. SDR-LoRa has been validated on (i) the Colosseum wireless channel emulator; and (ii) a real testbed with USRP radios and commercial-off-the-shelf (COTS) devices. Our experimental results demonstrate that the performance of SDR-LoRa is in line with commercial LoRa systems. We pledge to share the entirety of the SDR-LoRa code.}, booktitle = {Proceedings of the 16th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & CHaracterization}, pages = {24–31}, numpages = {8}, keywords = {LoRa, IoT, software defined radio, LPWAN}, location = {Sydney, NSW, Australia}, series = {WiNTECH '22} }
+@inproceedings{10.1145/3556564.3558239, abbr={Conference}, bibtex_show={true}, author = {Busacca, Fabio and Mangione, Stefano and Tinnirello, Ilenia and Palazzo, Sergio and Restuccia, Francesco}, title = {SDR-LoRa: Dissecting and Implementing LoRa on Software-Defined Radios to Advance Experimental IoT Research}, year = {2022}, isbn = {9781450395274}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3556564.3558239}, doi = {10.1145/3556564.3558239}, abstract = {In this paper, we present SDR-LoRa, a full-fledged SDR implementation of a LoRa transmitter and receiver. First, we reverse-engineer the LoRa physical layer (PHY) functionalities, including the procedures of packet modulation, demodulation, and preamble detection. Based on this analysis, we develop the first Software Defined Radio (SDR) implementation of the LoRa PHY. Furthermore, we integrate LoRa with an Automatic Repeat Request (ARQ) error detection protocol. SDR-LoRa has been validated on (i) the Colosseum wireless channel emulator; and (ii) a real testbed with USRP radios and commercial-off-the-shelf (COTS) devices. Our experimental results demonstrate that the performance of SDR-LoRa is in line with commercial LoRa systems. We pledge to share the entirety of the SDR-LoRa code.}, booktitle = {Proceedings of the 16th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation & CHaracterization}, pages = {24–31}, numpages = {8}, keywords = {LoRa, IoT, software defined radio, LPWAN}, location = {Sydney, NSW, Australia}, series = {WiNTECH '22} }
 
 
 @article{meneghello2022deepcsi,
@@ -103,9 +121,15 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
 }
 
 
-@article{baldesi2022charm,
+
+@INPROCEEDINGS{baldesi2022charm,
   abbr={Conference},
-  abstract={oday’s radio access networks (RANs) are monolithic
+  bibtex_show={true},
+  author={Baldesi, Luca and Restuccia, Francesco and Melodia, Tommaso},
+  booktitle={Proc. of IEEE Conference on Computer Communications (INFOCOM), Best Paper Award}, 
+  title={ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control}, 
+  year={2022},
+  abstract={Today’s radio access networks (RANs) are monolithic
   entities which often operate statically on a given set of parameters
   for the entirety of their operations. To implement realistic and
   effective spectrum sharing policies, RANs will need to seamlessly
@@ -137,19 +161,16 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
   a modified version of the OpenWiFi architecture. Experimental
   results show that ChARM achieves accuracy of up to 96% on
   Colosseum and 85% on an over-the-air testbed, demonstrating the
-  capacity of ChARM to exploit the considered spectrum channels},
+  capacity of ChARM to exploit the considered spectrum channels.},
+  volume={},
+  number={},
+  pages={240-249},
+  doi={10.1109/INFOCOM48880.2022.9796985}}
 
-  title={ChARM: NextG Spectrum Sharing Through Data-Driven Real-Time O-RAN Dynamic Control},
-  author={Baldesi, Luca and Restuccia, Francesco and Melodia, Tommaso},
-  bibtex_show={true},
-  journal={arXiv preprint arXiv:2201.06326, IEEE INFOCOM},
-  html={https://arxiv.org/abs/2201.06326},
-  month = {},
-  year={2022}
-}
 
-@article{callegaro2022smartdet,
-  abbr={Conferene},
+@INPROCEEDINGS{callegaro2022smartdet,
+  abbr={Conference},
+  author={Callegaro, Davide and Levorato, Marco and Restuccia, Francesco},
   abstract={Mobile devices increasingly rely on object detec-
   tion (OD) through deep neural networks (DNNs) to perform
   critical tasks. Due to their high complexity, the execution of
@@ -182,19 +203,16 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
   resources associated with Katch-Up. With respect to a fixed
   strategy using minimal resources, we increase mAR by 20% while
   using Katch-Up on 1/3 of the frames.},
-
-  title={SmartDet: Context-Aware Dynamic Control of Edge Task Offloading for Mobile Object Detection},
-  author={Callegaro, Davide and Restuccia, Francesco and Levorato, Marco},
-  bibtex_show={true},
-  journal={arXiv preprint arXiv:2201.04235, IEEE WoWMoM 2022},
-  html={https://arxiv.org/abs/2201.04235},
-  month = {},
-  year={2022}
-}
+  booktitle={Proc. of IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)}, 
+  title={SmartDet: Context-Aware Dynamic Control of Edge Task Offloading for Mobile Object Detection}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={357-366},
+  doi={10.1109/WoWMoM54355.2022.00034}}
 
 
-
-@article{matsubara2022bottlefit,
+@inproceedings{matsubara2022bottlefit,
   abbr={Conference},
   abstract={Although mission-critical applications require the
   use of deep neural networks (DNNs), their continuous execution
@@ -231,14 +249,17 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
   title={BottleFit: Learning Compressed Representations in Deep Neural Networks for Effective and Efficient Split Computing},
   author={Matsubara, Yoshitomo and Callegaro, Davide and Singh, Sameer and Levorato, Marco and Restuccia, Francesco},
   bibtex_show={true},
-  journal={arXiv preprint arXiv:2201.02693, IEEE WoWMoM 2022},
-  html={https://arxiv.org/abs/2201.02693},
-  month = {},
-  year={2022}
-}
+  booktitle={Proc. of IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)}, 
+  volume={},
+  number={},
+  pages={337-346},
+  year={2022},
+  doi={10.1109/WoWMoM54355.2022.00032}
+  }
 
 @article{bahadori2022rewis,
   abbr={Conference},
+  bibtex_show={true},
   abstract={Thanks to the ubiquitousness of Wi-Fi access points
   and devices, Wi-Fi sensing enables transformative applications
   in remote health care, home/office security, and surveillance, just
@@ -276,14 +297,15 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
   To allow reproducibility of our results and to address the current
   dearth of Wi-Fi sensing datasets, we pledge to release our 60 GB
   dataset and the entire code repository to the community.},
-  
   title={ReWiS: Reliable Wi-Fi Sensing Through Few-Shot Multi-Antenna Multi-Receiver CSI Learning},
   author={Bahadori, Niloofar and Ashdown, Jonathan and Restuccia, Francesco},
-  bibtex_show={true},
-  journal={arXiv preprint arXiv:2201.00869,  IEEE WoWMoM 2022},
-  html={https://arxiv.org/abs/2201.00869},
-  month = {},
-  year={2022}
+  booktitle={2022 IEEE 23rd International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM)}, 
+  title={ReWiS: Reliable Wi-Fi Sensing Through Few-Shot Multi-Antenna Multi-Receiver CSI Learning}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={50-59},
+  doi={10.1109/WoWMoM54355.2022.00027}
 }
 
 
@@ -299,20 +321,6 @@ html={https://dl.acm.org/doi/abs/10.1145/3555077.3556470}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Journals %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-@article{vegni2021series,
-  abbr={Journal},
-  abstract={In late 2019, a new virus was discovered, namely SARS-CoV-2. This strain causes severe acute respiratory syndrome coronavirus 2, defined as COVID-19. The disease soon spread all over the world, thus becoming a pandemic. It has been almost two years since worldwide restrictions on our lives started, and the traditional way people live and work has completely changed.},
-  title={Series Editorial: Networking Technologies to Combat the COVID-19 Pandemic},
-  author={Vegni, Anna Maria and Loscr{\`\i}, Valeria and Restuccia, Francesco and Yang, De-Nian},
-  journal={IEEE Communications Magazine},
-  bibtex_show={true},
-  volume={59},
-  number={9},
-  pages={14--15},
-  html={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9566516},
-  year={2021},
-  publisher={IEEE}
-}
 
 
 @article{restuccia2021deepfir,
