@@ -25,78 +25,40 @@ nav: true
             <!--<td style="width: 49.9422%;"><img src="/assets/img/S.jpg" alt="Shahriar" width="135" height="150"></td> -->
         </tr>
         <tr>
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-
-        </tr>
-        <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://bd.linkedin.com/in/shahriar-rifat-aa1b60bb"> Shahriar Rifat</a> </strong> <br>Ph.D. Student (Joined Summer 2022)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/S.jpg" alt="Shahriar" width="135" height="150"></td> -->
-        </tr>
-        <tr>
-            <!--<td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-            
         </tr>
         <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/andrew-ashdown-3b55701b2/"> Andrew Ashdown </a> </strong> <br>Ph.D. Student (Joined Summer 2022)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/S.jpg" alt="Shahriar" width="135" height="150"></td> -->
         </tr>
         <tr>
-            <!--<td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-            
-        </tr>
-        <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://ir.linkedin.com/in/mohammad-abdi-215920146">Mohammad Abdi </a> </strong><br>Ph.D. Student (Joined Fall 2022)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
-        <tr>
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-        </tr>
-        <tr>
-            
+        <tr> 
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://tanzilbinhassan.com/">Tanzil Bin Hasan </a> </strong><br>Ph.D. Student (Joined Spring 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-       
-        </tr>
-        <tr>
-            
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/sazzad-sayyed-74a4a4180/">A.M.Q. Sazzad Sayyed</a> </strong><br>Ph.D. Student (Joined Spring 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
-            
-            
-            
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-       
-        </tr>
-        <tr>
-            
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/md-ebtidaul-karim-a96a0b162/">Md. Ebtidaul Karim</a> </strong><br>Ph.D. Student (Starting Summer 2023)<br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
-            
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.dei.unipd.it/~meneghello/">Francesca Meneghello</a> </strong><br>Visiting Postdoctoral Fellow <br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
-            
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/federico-candela-86b512235/">Federico Candela</a> </strong><br>Visiting PhD Student <br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
-            <!-- <td style="width: 65.2948%;"><br><br></td>
-            <td style="width: 49.9422%;"><br></td> -->
-            
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/gabriele-restuccia/">Gabriele Restuccia</a> </strong><br>Visiting PhD Student <br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
     </tbody>
 </table>
@@ -111,8 +73,8 @@ nav: true
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/niloofar-bahadori">Niloofar Bahadori </a> </strong><br>Postdoctoral Fellow<br><br></td>
             <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
         </tr>
-                <tr>
-            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://scholar.google.com/citations?user=iAGMaqIAAAAJ">Riccardo Rusca </a> </strong><br>Visiting PhD Student (Spring 2021 2021-Fall 2022)<br><br></td>
+        <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://scholar.google.com/citations?user=iAGMaqIAAAAJ">Riccardo Rusca </a> </strong><br>Visiting PhD Student (Spring 2021-Fall 2022)<br><br></td>
             <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
         </tr>
         <tr>
