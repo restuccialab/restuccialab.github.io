@@ -111,6 +111,10 @@ nav: true
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/niloofar-bahadori">Niloofar Bahadori </a> </strong><br>Postdoctoral Fellow<br><br></td>
             <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
         </tr>
+                <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://scholar.google.com/citations?user=iAGMaqIAAAAJ">Riccardo Rusca </a> </strong><br>Visiting PhD Student (Spring 2021 2021-Fall 2022)<br><br></td>
+            <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
+        </tr>
         <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://scholar.google.com/citations?user=5xOxps0AAAAJ&hl=en">Fabio Busacca </a> </strong><br>Visiting PhD Student (Fall 2021-Spring 2022)<br><br></td>
             <!-- <td style="width: 49.9422%;"><img src="/assets/img/N.jpg" alt="Niloofar" width="120" height="150"></td> -->
