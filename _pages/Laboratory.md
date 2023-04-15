@@ -49,6 +49,10 @@ nav: true
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
         <tr>
+            <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.linkedin.com/in/abuchele/">Anna Buchele</a> </strong><br>Ph.D. Student (Starting Spring 2024)<br><br></td>
+            <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
+        </tr>
+        <tr>
             <td style="width: 65.2948%;"><strong>  <a class="news-title" href="https://www.dei.unipd.it/~meneghello/">Francesca Meneghello</a> </strong><br>Visiting Postdoctoral Fellow <br><br></td>
             <!--<td style="width: 49.9422%;"><img src="/assets/img/M.jpeg" alt="Mohammad" width="135" height="150"></td> -->
         </tr>
