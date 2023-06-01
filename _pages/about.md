@@ -6,7 +6,7 @@ subtitle: Assistant Professor of Electrical and Computer Engineering at Northeas
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: frank.jpg
   address: 
 
 
